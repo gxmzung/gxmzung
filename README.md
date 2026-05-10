@@ -1,10 +1,35 @@
 # gxmzung
 
-### Embedded · Defense Software · Autonomous Systems · Smart Campus
+### Embedded Systems · Telemetry · ROS2/PX4 · Smart Campus
 
-Computer Engineering student building projects around **hardware-adjacent software, telemetry systems, ROS2/PX4 simulation, smart campus platforms, and operational dashboards**.
+I build software around telemetry, field operations, autonomous systems, and campus-scale service infrastructure.
 
-I prefer projects that show system flow, constraints, implementation evidence, and realistic limitations rather than isolated UI demos.
+My projects focus on system flow, implementation evidence, realistic constraints, and operation-oriented architecture rather than isolated UI demos.
+
+---
+
+## How I Got Into Programming
+
+I did not start programming only from web or app development.
+
+My interest in software grew from hardware-adjacent work: PCB production flow, BOM handling, datasheet reading, OrCAD-based schematic review, component organization, and debugging around real production processes.
+
+Through that experience, I realized that understanding hardware alone was not enough.
+
+To understand how a real system works, I needed to understand the software layers around it:
+
+- backend logic
+- device communication
+- telemetry
+- monitoring
+- automation
+- operational interfaces
+
+I first approached software through Java, Spring Boot, Kotlin, and application/backend development.
+
+Over time, my direction moved deeper toward C/C++, embedded-style telemetry, diagnostics, ROS2/PX4 simulation, and ground-control-style systems.
+
+That is why my current projects focus on the boundary between hardware-adjacent data, backend systems, field operations, autonomous systems, and user-facing dashboards.
 
 ---
 
@@ -35,26 +60,26 @@ I prefer projects that show system flow, constraints, implementation evidence, a
 
 ## Portfolio Map
 
-### Defense / Embedded / Ground Control
+### Ground Control / Embedded / Diagnostics
 
 | Repository | Focus |
 |---|---|
-| `sat-gcs-defense-space-plus10` | Satellite ground-control style telemetry pipeline with C++ packet handling, Java mission server, Python tools, and React dashboard |
-| `fieldops-embedded-diagnostic-suite` | Embedded field diagnostics toolkit with serial parsing, GNSS tracking, telemetry monitoring, C scheduler logic, log analysis, and dashboard prototype |
+| [`sat-gcs-defense-space-plus10`](https://github.com/gxmzung/sat-gcs-defense-space-plus10) | Satellite ground-control style telemetry pipeline with C++ packet handling, Java mission server, Python tools, and React dashboard |
+| [`fieldops-embedded-diagnostic-suite`](https://github.com/gxmzung/fieldops-embedded-diagnostic-suite) | Embedded field diagnostics toolkit with serial parsing, GNSS tracking, telemetry monitoring, C scheduler logic, log analysis, and dashboard prototype |
 
 ### Drone / Autonomous Systems
 
 | Repository | Focus |
 |---|---|
-| `twinflight-mission-v2` | ROS2 / PX4 mission simulation with YAML mission config, offboard control flow, and PX4 SITL workflow |
-| `wildtrack-assist` | Search operation support system with backend, dashboard, drone simulator, report ranking, and AI-assisted validation |
+| [`twinflight-mission-v2`](https://github.com/gxmzung/twinflight-mission-v2) | ROS2 / PX4 mission simulation with YAML mission config, offboard control flow, and PX4 SITL workflow |
+| [`wildtrack-assist`](https://github.com/gxmzung/wildtrack-assist) | Search operation support system with backend, dashboard, drone simulator, report ranking, and AI-assisted validation |
 
 ### Smart Campus / Campus Operations
 
 | Repository | Focus |
 |---|---|
-| `CityBrain` | Smart campus cafeteria MVP with FastAPI backend, Android app, admin dashboard, student UI, operation logs, and Jarvis assistant prototype |
-| `paejae-campus-os-v1` | Smart campus platform scaffold for building metadata, room monitoring, admin dashboard, student services, IoT integration, and digital twin expansion |
+| [`CityBrain`](https://github.com/gxmzung/CityBrain) | Smart campus cafeteria MVP with FastAPI backend, Android app, admin dashboard, student UI, operation logs, and Jarvis assistant prototype |
+| [`paejae-campus-os-v1`](https://github.com/gxmzung/paejae-campus-os-v1) | Smart campus platform scaffold for building metadata, room monitoring, admin dashboard, student services, IoT integration, and digital twin expansion |
 
 ---
 
@@ -62,11 +87,11 @@ I prefer projects that show system flow, constraints, implementation evidence, a
 
 | Repository | Role |
 |---|---|
-| `skyedge_vtol` | VTOL mission stack prototype with ROS2-style mission manager, PX4 bridge, safety manager, guidance logic, and vision nodes |
-| `ros2-px4-yaml-param-debug` | Small ROS2/PX4 debugging notes focused on YAML parameter validation and mission configuration checks |
-| `Dorm_Mail_Pcu_Style` | Dormitory mail and lost-item management prototype for campus operations |
-| `LingoLink` | Korean-Spanish voice translation prototype with mobile, backend, and optional firmware-oriented architecture |
-| `Paejae_Apptech` | Early Paejae campus app experiment with Flutter and backend prototypes |
+| [`skyedge_vtol`](https://github.com/gxmzung/skyedge_vtol) | VTOL mission stack prototype with ROS2-style mission manager, PX4 bridge, safety manager, guidance logic, and vision nodes |
+| [`ros2-px4-yaml-param-debug`](https://github.com/gxmzung/ros2-px4-yaml-param-debug) | Small ROS2/PX4 debugging notes focused on YAML parameter validation and mission configuration checks |
+| [`Dorm_Mail_Pcu_Style`](https://github.com/gxmzung/Dorm_Mail_Pcu_Style) | Dormitory mail and lost-item management prototype for campus operations |
+| [`LingoLink`](https://github.com/gxmzung/LingoLink) | Korean-Spanish voice translation prototype with mobile, backend, and optional firmware-oriented architecture |
+| [`Paejae_Apptech`](https://github.com/gxmzung/Paejae_Apptech) | Early Paejae campus app experiment with Flutter and backend prototypes |
 
 ---
 
@@ -74,8 +99,8 @@ I prefer projects that show system flow, constraints, implementation evidence, a
 
 | Repository | Purpose |
 |---|---|
-| `Cs_Resources` | Computer science study archive covering C, C++, Java, Python, Linux, data structures, networking, embedded basics, and interview preparation |
-| `University_Archive` | University learning archive for coursework, project notes, academic records, and long-term study process tracking |
+| [`Cs_Resources`](https://github.com/gxmzung/Cs_Resources) | Computer science study archive covering C, C++, Java, Python, Linux, data structures, networking, embedded basics, and interview preparation |
+| [`University_Archive`](https://github.com/gxmzung/University_Archive) | University learning archive for coursework, project notes, academic records, and long-term study process tracking |
 
 ---
 
@@ -104,6 +129,4 @@ Embedded / telemetry / diagnostics
 + backend and field-facing dashboards
 ```
 
-The goal is not to look like a generic app developer.
-
-The goal is to show the ability to connect hardware-adjacent systems, backend logic, operational data, simulation, and user-facing interfaces.
+My goal is to build software that connects hardware-adjacent systems, backend logic, operational data, simulation, and field-facing interfaces.
