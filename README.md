@@ -1,15 +1,15 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving\&height=240\&color=gradient\&text=Lee%20Youngjun%20%7C%20gxmzung\&fontSize=44\&fontAlignY=38\&desc=Embedded%20Systems%20%C2%B7%20Telemetry%20%C2%B7%20ROS2%2FPX4%20%C2%B7%20Smart%20Campus\&descAlignY=58\&descSize=18)
+![header](https://capsule-render.vercel.app/api?type=waving\&height=240\&color=gradient\&text=Lee%20Youngjun%20%7C%20gxmzung\&fontSize=44\&fontAlignY=38\&desc=Embedded%20Systems%20%C2%B7%20Telemetry%20%C2%B7%20VTOL%20Mission%20Systems%20%C2%B7%20Bio%20AI\&descAlignY=58\&descSize=18)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono\&size=22\&duration=2600\&pause=800\&center=true\&vCenter=true\&width=900\&lines=I+build+software+around+telemetry+and+field+operations.;Embedded+%2B+Backend+%2B+Dashboard+%2B+Simulation;ROS2+%2F+PX4+%2F+Smart+Campus+%2F+Diagnostics;Build+the+flow.+Show+the+evidence.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono\&size=22\&duration=2600\&pause=800\&center=true\&vCenter=true\&width=900\&lines=I+build+software+around+telemetry+and+field+operations.;Embedded+%2B+Backend+%2B+Dashboard+%2B+Simulation;VTOL+Mission+Systems+%2F+ROS2+%2F+PX4+Style+Flow;Build+the+flow.+Show+the+evidence.)](https://git.io/typing-svg)
 
 <br/>
 
 <img src="https://img.shields.io/badge/Focus-Embedded%20Systems-00599C?style=for-the-badge&logo=c&logoColor=white"/>
 <img src="https://img.shields.io/badge/Telemetry-Field%20Operations-0A66C2?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/ROS2%20%2F%20PX4-Autonomous%20Systems-22314E?style=for-the-badge&logo=ros&logoColor=white"/>
-<img src="https://img.shields.io/badge/Smart%20Campus-Operation%20Platform-6DB33F?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/VTOL-Mission%20Systems-22314E?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Bio%20AI-Research%20Software-6A5ACD?style=for-the-badge"/>
 
 </div>
 
@@ -31,7 +31,10 @@ Through that experience, I became interested in the software layers that make re
 * dashboards
 * field operation tools
 * autonomous system simulation
+* VTOL / mission software architecture
 * smart campus service infrastructure
+* bio experiment data systems
+* research software and report automation
 
 I try to build projects with runnable structure, implementation evidence, realistic constraints, and documentation that explains **why the system exists**.
 
@@ -44,7 +47,9 @@ I try to build projects with runnable structure, implementation evidence, realis
 ```text
 Embedded / Telemetry / Diagnostics
         +
-ROS2 / PX4 / Autonomous Systems
+VTOL / Mission Systems / ROS2-PX4 Style Flow
+        +
+Bio AI / Research Software / Digital Twin
         +
 Smart Campus Operation Platforms
         +
@@ -61,10 +66,10 @@ Backend & Field-Facing Dashboards
 
 <div align="center">
 
-### 🛰️ Ground Control / Embedded / Diagnostics
+### 🛰️ Embedded / Telemetry / Diagnostics
 
-<a href="https://github.com/gxmzung/sat-gcs-defense-space-plus10">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=gxmzung&repo=sat-gcs-defense-space-plus10&theme=default&hide_border=true" />
+<a href="https://github.com/gxmzung/telemetry-packet-parser-c">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=gxmzung&repo=telemetry-packet-parser-c&theme=default&hide_border=true" />
 </a>
 <a href="https://github.com/gxmzung/fieldops-embedded-diagnostic-suite">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=gxmzung&repo=fieldops-embedded-diagnostic-suite&theme=default&hide_border=true" />
@@ -72,24 +77,24 @@ Backend & Field-Facing Dashboards
 
 <br/><br/>
 
-### 🛩️ Drone / Autonomous Systems
+### 🛩️ VTOL / Mission Systems
 
-<a href="https://github.com/gxmzung/twinflight-mission-v2">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=gxmzung&repo=twinflight-mission-v2&theme=default&hide_border=true" />
+<a href="https://github.com/gxmzung/skyedge_vtol">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=gxmzung&repo=skyedge_vtol&theme=default&hide_border=true" />
 </a>
-<a href="https://github.com/gxmzung/wildtrack-assist">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=gxmzung&repo=wildtrack-assist&theme=default&hide_border=true" />
+<a href="https://github.com/gxmzung/mission-state-machine-cpp">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=gxmzung&repo=mission-state-machine-cpp&theme=default&hide_border=true" />
 </a>
 
 <br/><br/>
 
-### 🏫 Smart Campus / Campus Operations
+### 🧬 Bio AI / Product Systems
 
-<a href="https://github.com/gxmzung/CityBrain">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=gxmzung&repo=CityBrain&theme=default&hide_border=true" />
+<a href="https://github.com/gxmzung/BioDockLab">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=gxmzung&repo=BioDockLab&theme=default&hide_border=true" />
 </a>
-<a href="https://github.com/gxmzung/paejae-campus-os-v1">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=gxmzung&repo=paejae-campus-os-v1&theme=default&hide_border=true" />
+<a href="https://github.com/gxmzung/paejae-pick-2-app">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=gxmzung&repo=paejae-pick-2-app&theme=default&hide_border=true" />
 </a>
 
 </div>
@@ -104,39 +109,43 @@ flowchart LR
     B --> C[Telemetry Pipeline]
     C --> D[Backend / API]
     D --> E[Dashboard / Operations]
-    E --> F[Smart Campus Platform]
-    C --> G[ROS2 / PX4 Simulation]
-    G --> H[Autonomous Mission Systems]
+    C --> F[VTOL Mission Stack]
+    F --> G[Telemetry Safety / Failsafe]
+    F --> H[PX4 Bridge / Guidance]
+    F --> I[Vision Assist / Hardware Prototype]
+    D --> J[Bio AI Research Software]
+    J --> K[Digital Twin Simulation]
+    J --> L[Research Report Automation]
+    E --> M[Smart Campus Platform]
 ```
 
 ---
 
 ## 🧩 Project Categories
 
-| Category           | Repository                                                                                            | Focus                                                                                                                                                 |
-| ------------------ | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🛰️ Ground Control | [`sat-gcs-defense-space-plus10`](https://github.com/gxmzung/sat-gcs-defense-space-plus10)             | Satellite ground-control style telemetry pipeline with C++ packet handling, Java mission server, Python tools, and React dashboard                    |
-| 🛠️ Diagnostics    | [`fieldops-embedded-diagnostic-suite`](https://github.com/gxmzung/fieldops-embedded-diagnostic-suite) | Embedded field diagnostics toolkit with serial parsing, GNSS tracking, telemetry monitoring, C scheduler logic, log analysis, and dashboard prototype |
-| 🛩️ Drone / PX4    | [`twinflight-mission-v2`](https://github.com/gxmzung/twinflight-mission-v2)                           | ROS2 / PX4 mission simulation with YAML mission config, offboard control flow, and PX4 SITL workflow                                                  |
-| 🚁 Field Support   | [`wildtrack-assist`](https://github.com/gxmzung/wildtrack-assist)                                     | Search operation support system with backend, dashboard, drone simulator, report ranking, and AI-assisted validation                                  |
-| 🏫 Smart Campus    | [`CityBrain`](https://github.com/gxmzung/CityBrain)                                                   | Smart campus cafeteria MVP with FastAPI backend, Android app, admin dashboard, student UI, operation logs, and assistant prototype                    |
-| 🏢 Campus OS       | [`paejae-campus-os-v1`](https://github.com/gxmzung/paejae-campus-os-v1)                               | Smart campus platform scaffold for building metadata, room monitoring, admin dashboard, student services, IoT integration, and digital twin expansion |
+| Category                      | Repository                                                                                            | Focus                                                                                                                                                                                                  |
+| ----------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 🛰️ Telemetry / C Systems     | [`telemetry-packet-parser-c`](https://github.com/gxmzung/telemetry-packet-parser-c)                   | C-based telemetry packet parser and UDP mission diagnostics toolkit                                                                                                                                    |
+| 🛠️ Embedded Diagnostics      | [`fieldops-embedded-diagnostic-suite`](https://github.com/gxmzung/fieldops-embedded-diagnostic-suite) | Embedded field diagnostics toolkit with serial parsing, GNSS tracking, telemetry monitoring, C scheduler logic, log analysis, and dashboard prototype                                                  |
+| 🛩️ VTOL Mission Stack        | [`skyedge_vtol`](https://github.com/gxmzung/skyedge_vtol)                                             | Unified VTOL mission stack with mission manager, telemetry safety checks, PX4 bridge scaffold, waypoint guidance, vision-assisted logic, ESP32 hardware prototypes, smoke tests, and GitHub Actions CI |
+| ⚙️ Mission Logic / C++        | [`mission-state-machine-cpp`](https://github.com/gxmzung/mission-state-machine-cpp)                   | C++ mission state machine for autonomous systems, telemetry health checks, failsafe transitions, and mission-control flow                                                                              |
+| 🧬 Bio AI / Research Software | [`BioDockLab`](https://github.com/gxmzung/BioDockLab)                                                 | Bio AI research platform connecting experiment data, Node API, TypeScript dashboard, Python analysis, digital twin simulation, and report automation                                                   |
+| 🏫 Campus Product             | [`paejae-pick-2-app`](https://github.com/gxmzung/paejae-pick-2-app)                                   | Campus life platform for Paejae University students with Flutter app structure, student services, and operation-oriented product flow                                                                  |
 
 ---
 
 ## 🧪 Supporting Repositories
 
-| Repository                                                                          | Role                                                                                                                       |
-| ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| [`skyedge_vtol`](https://github.com/gxmzung/skyedge_vtol)                           | VTOL mission stack prototype with ROS2-style mission manager, PX4 bridge, safety manager, guidance logic, and vision nodes |
-| [`ros2-px4-yaml-param-debug`](https://github.com/gxmzung/ros2-px4-yaml-param-debug) | ROS2/PX4 debugging notes focused on YAML parameter validation and mission configuration checks                             |
-| [`Dorm_Mail_Pcu_Style`](https://github.com/gxmzung/Dorm_Mail_Pcu_Style)             | Dormitory mail and lost-item management prototype for campus operations                                                    |
-| [`LingoLink`](https://github.com/gxmzung/LingoLink)                                 | Korean-Spanish voice translation prototype with mobile, backend, and optional firmware-oriented architecture               |
-| [`Paejae_Apptech`](https://github.com/gxmzung/Paejae_Apptech)                       | Early Paejae campus app experiment with Flutter and backend prototypes                                                     |
-| [`Cs_Resources`](https://github.com/gxmzung/Cs_Resources)                           | CS study archive covering C, C++, Java, Python, Linux, networking, embedded basics, and interview preparation              |
-| [`University_Archive`](https://github.com/gxmzung/University_Archive)               | University learning archive for coursework, project notes, academic records, and long-term study process tracking          |
-| [`embedded-telemetry-lab-c`](https://github.com/gxmzung/embedded-telemetry-lab-c) | C-based telemetry packet parsing and embedded diagnostics lab focused on anomaly detection, CRC validation, and mission-session reporting |
-| [`mission-state-machine-cpp`](https://github.com/gxmzung/mission-state-machine-cpp) | C++ mission state machine for autonomous systems, telemetry health checks, and failsafe transitions |
+| Repository                                                                                | Role                                                                                                                                      |
+| ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| [`embedded-telemetry-lab-c`](https://github.com/gxmzung/embedded-telemetry-lab-c)         | C-based telemetry packet parsing and embedded diagnostics lab focused on anomaly detection, CRC validation, and mission-session reporting |
+| [`uart-diagnostic-cli-c`](https://github.com/gxmzung/uart-diagnostic-cli-c)               | C-based UART log parser and embedded diagnostic CLI for field operation systems                                                           |
+| [`binary-packet-inspector-c`](https://github.com/gxmzung/binary-packet-inspector-c)       | C-based binary packet inspector for embedded telemetry and mission diagnostics                                                            |
+| [`sat-gcs-defense-space-plus10`](https://github.com/gxmzung/sat-gcs-defense-space-plus10) | Satellite ground-control style telemetry pipeline with packet handling, mission server concepts, Python tools, and dashboard flow         |
+| [`twinflight-mission-v2`](https://github.com/gxmzung/twinflight-mission-v2)               | ROS2 / PX4 mission simulation with YAML mission config, offboard control flow, and PX4 SITL workflow                                      |
+| [`ros2-px4-yaml-param-debug`](https://github.com/gxmzung/ros2-px4-yaml-param-debug)       | ROS2/PX4 debugging notes focused on YAML parameter validation and mission configuration checks                                            |
+| [`Memory-Twin`](https://github.com/gxmzung/Memory-Twin)                                   | AI memory agent platform focused on personal memory preservation, ethical data design, product planning, and long-term AI interaction     |
+| [`Cs_Resources`](https://github.com/gxmzung/Cs_Resources)                                 | CS study archive covering C, C++, Java, Python, Linux, networking, embedded basics, and interview preparation                             |
 
 ---
 
@@ -148,16 +157,21 @@ flowchart LR
   <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
   <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
 </p>
 
 ### ⚙️ Backend / API
 
 <p>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
   <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
   <img src="https://img.shields.io/badge/REST_API-000000?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/WebSocket-35495E?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Uvicorn-499848?style=for-the-badge"/>
 </p>
 
@@ -166,6 +180,8 @@ flowchart LR
 <p>
   <img src="https://img.shields.io/badge/ROS2-22314E?style=for-the-badge&logo=ros&logoColor=white"/>
   <img src="https://img.shields.io/badge/PX4-005CAF?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/VTOL-Mission%20Stack-111827?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Failsafe-Logic-B91C1C?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
 </p>
@@ -174,9 +190,45 @@ flowchart LR
 
 <p>
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Recharts-FF6384?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/D3.js-F9A03C?style=for-the-badge&logo=d3dotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white"/>
   <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
   <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white"/>
   <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
+</p>
+
+### 🧬 Bio AI / Research Software
+
+<p>
+  <img src="https://img.shields.io/badge/Bioinformatics-2E7D32?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Digital_Twin-0A66C2?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Research_Software-6A5ACD?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Report_Automation-7952B3?style=for-the-badge"/>
+</p>
+
+### 🧠 AI / Data / Simulation
+
+<p>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LLM_API-111827?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Simulation-334155?style=for-the-badge"/>
+</p>
+
+### 🗄️ Data / DevOps
+
+<p>
+  <img src="https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSV-4B5563?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&logo=yaml&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
 </p>
 
 ### 🧰 Tools
@@ -198,6 +250,7 @@ flowchart LR
 * 🤝 Communicating with professors, university staff, and industry contacts
 * 📢 Preparing presentations, project documents, and competition materials
 * 🔍 Turning vague ideas into runnable structures, roadmaps, and demos
+* 🧪 Connecting research ideas with software architecture and implementation evidence
 
 ---
 
@@ -213,6 +266,7 @@ I try to build projects with:
 * implementation evidence beyond screenshots
 * honest limitations and future work
 * hardware-adjacent or operations-oriented thinking
+* research software structure for data, analysis, simulation, and reports
 
 ---
 
@@ -221,7 +275,7 @@ I try to build projects with:
 <div align="center">
 
 <img height="170" src="https://github-readme-stats.vercel.app/api?username=gxmzung&show_icons=true&hide_border=true&count_private=true" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gxmzung&layout=compact&hide_border=true&cache_seconds=1800&v=2" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gxmzung&layout=compact&hide_border=true&cache_seconds=1800&v=3" />
 
 <br/><br/>
 
