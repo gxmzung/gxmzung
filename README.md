@@ -135,6 +135,7 @@ flowchart LR
 | [`Paejae_Apptech`](https://github.com/gxmzung/Paejae_Apptech)                       | Early Paejae campus app experiment with Flutter and backend prototypes                                                     |
 | [`Cs_Resources`](https://github.com/gxmzung/Cs_Resources)                           | CS study archive covering C, C++, Java, Python, Linux, networking, embedded basics, and interview preparation              |
 | [`University_Archive`](https://github.com/gxmzung/University_Archive)               | University learning archive for coursework, project notes, academic records, and long-term study process tracking          |
+| [`embedded-telemetry-lab-c`](https://github.com/gxmzung/embedded-telemetry-lab-c) | C-based telemetry packet parsing and embedded diagnostics lab focused on anomaly detection, CRC validation, and mission-session reporting |
 
 ---
 
