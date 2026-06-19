@@ -225,10 +225,6 @@ I try to build projects with:
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=gxmzung&hide_border=true" />
 
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=gxmzung&theme=flat&no-frame=true&margin-w=10&row=1" />
-
 </div>
 
 ---
