@@ -17,26 +17,51 @@
 
 ## 👨‍💻 About Me
 
-I am **Lee Youngjun**, a Computer Science student at **Paejae University** in Korea 🇰🇷.
+# Lee Youngjun / 이영준
 
-My interest in programming did not begin only from web or app development.
-It grew from hardware-adjacent work such as **PCB production flow, BOM handling, datasheet reading, OrCAD-based schematic review, component organization, and debugging around real production processes**.
+Computer Engineering Student
+AI · Embedded Systems · UAV / UAM · Platform Engineering
 
-Through that experience, I became interested in the software layers that make real systems work:
+GitHub is where I organize my engineering process:
+from problem discovery, field research, system design, prototyping, documentation, and presentation.
 
-* device communication
-* telemetry pipelines
-* backend logic
-* diagnostics
-* dashboards
-* field operation tools
-* autonomous system simulation
-* VTOL / mission software architecture
-* smart campus service infrastructure
-* bio experiment data systems
-* research software and report automation
+## About Me
 
-I try to build projects with runnable structure, implementation evidence, realistic constraints, and documentation that explains **why the system exists**.
+I am interested in building systems that connect software, hardware, data, and people.
+
+My background includes hardware manufacturing experience such as circuit design, BOM, SMT process, Gerber data, basic firmware workflow, and customer communication.
+After entering university, I have been working on AI platforms, embedded telemetry tools, UAV systems, smart campus services, and open-source disaster response projects.
+
+I do not define myself only as a programmer.
+My strength is understanding technical structures, explaining them to non-technical people, and turning ideas into working systems.
+
+## Main Fields
+
+* AI Platform
+* Embedded Systems
+* UAV / UAM
+* Telemetry & Diagnostics
+* Smart Campus
+* Disaster Response
+* Technical PM / Pre-Sales Engineering
+
+## Highlights
+
+* BioDockLab: Award-winning Bio AI research platform
+* SkyEdge VTOL: ROS2/PX4-oriented UAV mission stack
+* RescueMap OS: Open-source disaster response kit
+* Ghost Ant Handover: UAM handover optimization research
+* Paejae Pick 2: Flutter smart campus app
+* Embedded telemetry tools in C/C++
+
+## Awards & Activities
+
+* Grand Prize, Future Government Innovation Idea Contest
+* Encouragement Award, Intelligent Innovation Idea Contest
+* KRAC 24th Robot Aircraft Competition, SW Team, Passed 1st Preliminary
+* Open Source Software Developer Contest, RescueMap OS
+* UAM communication handover research
+
 
 ---
 
