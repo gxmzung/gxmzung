@@ -320,7 +320,7 @@ I try to build projects with:
 <div align="center">
 
 <img height="170" src="https://github-readme-stats.vercel.app/api?username=gxmzung&show_icons=true&hide_border=true&count_private=true" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gxmzung&layout=compact&hide_border=true&cache_seconds=1800&v=3" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gxmzung&layout=compact&hide_border=true&hide=Dart,HTML,CSS&cache_seconds=1800&v=4" />
 
 <br/><br/>
 
