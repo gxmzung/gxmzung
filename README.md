@@ -315,14 +315,12 @@ I try to build projects with:
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Stats 
 
 <div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=gxmzung&show_icons=true&hide_border=true&count_private=true" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gxmzung&layout=compact&hide_border=true&hide=Dart,HTML,CSS&cache_seconds=1800&v=4" />
-
-<br/><br/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=gxmzung&show_icons=true&hide_border=true&count_private=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gxmzung&layout=compact&hide_border=true&hide=Dart,HTML,CSS&cache_seconds=1800&v=4" />
+</div>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=gxmzung&hide_border=true" />
 
