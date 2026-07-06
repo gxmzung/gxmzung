@@ -337,14 +337,49 @@ I try to build projects with:
 
 ---
 
-## 📊 GitHub Stats 
+## 📊 GitHub Stats
 
 <div align="center">
 
-<!-- Top languages chart excludes Dart using hide=Dart -->
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=gxmzung&show_icons=true&hide_border=true&count_private=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gxmzung&layout=compact&hide_border=true&langs_count=10&hide=Dart&cache_seconds=1800&v=6" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=gxmzung&show_icons=true&hide_border=true&count_private=true" />
+
+<br/><br/>
+
 </div>
+
+## 📈 Repository Language Focus
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center"><b>C++</b><br/>Mission Logic · VTOL · Systems</td>
+    <td align="center"><b>C</b><br/>Telemetry · Packet Parser · Embedded</td>
+    <td align="center"><b>Python</b><br/>Simulation · AI · Data Analysis</td>
+    <td align="center"><b>TypeScript</b><br/>Dashboard · Web UI</td>
+  </tr>
+  <tr>
+    <td align="center"><b>Java</b><br/>Backend Concepts</td>
+    <td align="center"><b>JavaScript</b><br/>Web Prototypes</td>
+    <td align="center"><b>Shell</b><br/>Automation · DevOps</td>
+    <td align="center"><b>HTML/CSS</b><br/>Frontend Support</td>
+  </tr>
+</table>
+
+<br/>
+
+<img src="https://img.shields.io/badge/C++-Mission%20Systems-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
+<img src="https://img.shields.io/badge/C-Embedded%20Telemetry-00599C?style=for-the-badge&logo=c&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-Simulation%20%26%20AI-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/TypeScript-Dashboard%20UI-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/Java-Backend-007396?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/JavaScript-Web-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+
+</div>
+
+<br/>
+
+<div align="center">
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=gxmzung&hide_border=true" />
 
