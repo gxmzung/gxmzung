@@ -196,6 +196,26 @@ flowchart LR
 
 ---
 
+## 💻 Portfolio Languages
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gxmzung&layout=compact&hide_border=true&langs_count=10&cache_seconds=1800&v=5" />
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/C-Embedded%20Telemetry-00599C?style=for-the-badge&logo=c&logoColor=white"/>
+<img src="https://img.shields.io/badge/C++-Mission%20Logic-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-Data%20%26%20Simulation-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Java-Backend%20Concepts-007396?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/TypeScript-Dashboard%20UI-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-Web%20Prototypes-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/Dart-Flutter%20App-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
+
+</div>
+
+---
+
 ## 🛠️ Tech Stack
 
 ### 🧑‍💻 Core Languages
@@ -319,7 +339,7 @@ I try to build projects with:
 
 <div align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=gxmzung&show_icons=true&hide_border=true&count_private=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gxmzung&layout=compact&hide_border=true&hide=Dart,HTML,CSS&cache_seconds=1800&v=4" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gxmzung&layout=compact&hide_border=true&langs_count=10&cache_seconds=1800&v=5" />
 </div>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=gxmzung&hide_border=true" />
