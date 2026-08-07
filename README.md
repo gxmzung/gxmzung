@@ -2,196 +2,296 @@
 
 # Lee Youngjun / 이영준
 
-### Computer Engineering · R&D System Integration · UAV / Embedded / AI
+### Computer Engineering · Autonomous UAV Systems · Embedded & Mission Software
 
-**Technical PM · Mission Software · Telemetry · Field Systems · Evidence-driven Engineering**
+**UAV / VTOL · ROS2 / PX4 · Embedded Linux · Telemetry · Mission Autonomy · System Integration · Technical PM**
 
-> Build the flow. Show the evidence. Document the constraints.
+> I build systems by connecting requirements, interfaces, implementation, verification, and evidence.
 
 </div>
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
-배재대학교 컴퓨터공학과에서 공부하며, **소프트웨어·하드웨어·통신·운용 요구사항을 하나의 시스템으로 연결하는 일**에 관심이 있습니다.
+I am a Computer Engineering student focused on **real-world autonomous, embedded, and field systems**.
 
-대학 프로젝트와 기업 R&D 실무를 병행하며 UAV/드론, Embedded Linux, Telemetry, 재난안전 시스템, AI/가상훈련 소프트웨어를 다루고 있습니다. 이전에는 회로·PCB·BOM·SMT·Gerber, 펌웨어 시험, Linux/UART 기반 장비 등 전자·임베디드 실무를 경험했습니다.
+My background started from electronics and embedded work — circuit/PCB production workflows, BOM/Gerber/SMT, firmware testing, Linux/UART equipment, and hardware-software integration — and has expanded toward:
 
-제가 중요하게 보는 흐름은 다음과 같습니다.
+- UAV / VTOL mission systems
+- ROS2 / PX4 / MAVLink
+- telemetry and diagnostics
+- GNSS / RTK and field gateways
+- disaster-response systems
+- AI / edge vision
+- communication and networking
+- technical project management
+
+I am especially interested in systems where software must work together with **flight controllers, onboard computers, sensors, communication links, networks, operators, and real hardware**.
 
 ```text
 Problem / Requirement
         ↓
 System Boundary
         ↓
-Interfaces / Data Flow
+Hardware / Interfaces
         ↓
-Implementation / Technical Review
+Embedded / Communication
         ↓
-Failure Cases / Test Criteria
+Mission / Application Logic
         ↓
-Evidence
+Operator / GCS / Service
         ↓
-Documentation / Presentation
+Verification / Evidence
+        ↓
+Documentation / Delivery
 ```
 
 ---
 
-## 🧭 Current Positioning
+## Current Positioning
 
-- **Computer Engineering Student** — Paejae University
-- **R&D / System Integration** — industry project experience
-- **Main Fields** — UAV · Embedded · Telemetry · AI · Disaster Response
+- **Computer Engineering** — Paejae University
+- **Industry R&D** — System Integration / Software / Technical Review
+- **Main Fields** — UAV · Embedded · Telemetry · AI · Communication · Disaster Response
+- **Working Style** — Code + Test + Evidence + Documentation
 - **Career Direction** — Technical PM → Program / Project Leadership
 
 ---
 
-## 🏆 Selected Outcomes
+# Current Competitions & Leadership
 
-| Year | Outcome |
-|---|---|
-| 2026 | **최우수상** — 미래정부혁신 아이디어 경진대회, BioDockLab |
-| 2026 | **장려상** — 지능화혁신 아이디어 경진대회, Smart Campus to Smart City Platform |
-| 2026 | **1차 예선 통과** — 제24회 한국로봇항공기경연대회 정규부문, SkyEdge |
-| 2026 | **TRAITHON 참가** — SAFE:SEARCH, AI Engineer / Development PM |
+> I participate in multiple competitions and multidisciplinary projects at the same time.  
+> This section lists **current activities where I have a clear technical, planning, or leadership role**.
 
----
+## 🛡️ 2nd TRAITHON (Trustworthy AI Marathon) — SAFE:SEARCH
 
-# 🚀 Main Portfolio
-
-## 🧬 BioDockLab
-
-[Repository](https://github.com/gxmzung/BioDockLab)
-
-**Bio AI research / experiment platform**
-
-제가 맡은 범위:
-- 프로젝트 기획 및 시스템 설계
-- Prototype 개발
-- 실험 데이터·분석결과 Dashboard 구조
-- API 기반 실험결과 연결
-- 발표 및 질의응답
-
-**Outcome:** 2026 미래정부혁신 아이디어 경진대회 **최우수상**
-
----
-
-## 🏫 Paejae Pick 2
-
-[Repository](https://github.com/gxmzung/paejae-pick-2-app)
-
-**Smart-campus student life platform**
-
-- 학생 생활 플랫폼 기획·개발
-- Flutter 기반 MVP / UI 흐름 설계
-- 학과·동아리·참여정보·학생식당 등 캠퍼스 정보구조 설계
-- 실제 기기 QA / 내부 테스트 / Release Scope 관리
-
-**Related Outcome:** 2026 지능화혁신 아이디어 경진대회 **장려상**
-
----
-
-## 🛡️ SAFE:SEARCH — TRAITHON
+**AI Engineer · Development PM | Ongoing**
 
 [Repository](https://github.com/verso-team/safe-search)
 
-**AI safety search service for digital-crime victims**
+AI safety-search service for digital-crime victims.
 
-**Role:** AI Engineer / Development PM
+My responsibilities include:
 
-제가 맡은 범위:
-- 프로젝트 개요 및 서비스 전체 흐름 정리
-- 개발 일정 / Roadmap 관리
-- 시연·AI 분석결과 자료 취합
-- 교수 자문자료 총괄
-- 개인정보·민감정보 처리, 위험도 분석, Human-in-the-Loop 구조를 개발 관점에서 정리
+- overall development planning and service architecture
+- safe-search / risk-analysis flow
+- AI analysis result integration
+- privacy / sensitive-information handling design
+- Human-in-the-Loop decision structure
+- professor advisory-material coordination
+- development schedule and multidisciplinary team coordination
 
----
-
-## 🛩️ SkyEdge VTOL / Korea Robot Aircraft Competition
-
-[Repository](https://github.com/gxmzung/skyedge_vtol)
-
-- ROS2 / PX4 / MAVLink 기반 UAV mission-system 학습·구현
-- Telemetry / Mission Flow / Health Monitoring 구조
-- 실제 대회 기체 구성과 연계한 시스템 관점 학습
-
-**Outcome:** 제24회 한국로봇항공기경연대회 정규부문 **1차 예선 통과**
-
----
-
-## 🌍 RescueMap OS
-
-[Repository](https://github.com/gxmzung/rescuemap-os)
-
-- GIS 기반 재난 대응 정보 시각화
-- 재난지도 / 현장정보 / 취약대상 지원 개념
-- 공개SW 프로젝트로 확장
+```text
+Victim Input
+    ↓
+PII / Sensitive Information Check
+    ↓
+Crime / Risk Classification
+    ↓
+Safe Query Generation
+    ↓
+Official Institution Guidance
+    ↓
+Confidence / Human Review
+```
 
 ---
 
-## 📡 Ghost Ant Handover
+## 🚜 13th National ICT Convergence AI Competition — AgriGuard AIoT
 
-[Repository](https://github.com/gxmzung/ghost-ant-handover)
+**Technical PM · IoT / Real-time System Integration | Ongoing**
 
-- UAM 이동환경의 통신 Handover 문제 연구
-- 신호세기 / 지연 / 네트워크 부하 기반 판단 구조
-- 경로 기반 시나리오 및 정량 실험 로그
+[Repository](https://github.com/PaiChai-Dev26/agriguard-aiot)
 
----
+Safety platform for elderly agricultural workers, combining **drinking-risk prevention, fall detection, and short-range collaborative agricultural-machine safety**.
 
-## 🧠 Memory Twin
+My role:
 
-[Repository](https://github.com/gxmzung/Memory-Twin)
-
-Digital-twin / memory-oriented AI system concept을 통해 상태·기록·AI 상호작용 구조를 실험한 개인 프로젝트입니다.
-
----
-
-## 🏙️ CityBrain
-
-[Repository](https://github.com/gxmzung/CityBrain)
-
-학생식당 혼잡도·만족도 등 캠퍼스 데이터를 기반으로 **Smart Campus → Smart City** 확장 가능성을 탐색한 데이터/서비스 프로젝트입니다.
+- define technical scope and interface boundaries for a 5-person team
+- integrate sensor / GPS / edge / server / web architecture
+- organize FastAPI / WebSocket real-time communication structure
+- coordinate hardware, API, server, and UI workstreams
+- manage two-week development checkpoints
+- coordinate demo, deployment material, business plan, video, and presentation outputs
 
 ---
 
-# 🏢 Industry R&D Experience
+## 🏗️ 17th LH Land Technology Competition — SiteLink
 
-> 회사 프로젝트는 **제가 직접 수행한 범위만 공개 가능한 수준으로 요약**합니다.  
-> 회사 소스코드, 원문 문서, 고객/기관 정보, 내부 IP·네트워크 정보, 비공개 요구사항은 개인 Public GitHub에 업로드하지 않습니다.
+**Competition Proposal · System Concept | Ongoing**
 
-### Disaster Integrated Control Software
-- 기존 Frontend 구조 분석 및 개편
-- React / TypeScript 오류·충돌 정리
-- API / DB 구조를 유지한 연동 방향 검토
-- 실장비 E2E 전 단계 SW 검증·기술 정리
+Concept: **construction-site temporary communication-network operation optimization under changing construction progress**.
 
-### Field Gateway / GNSS-RTK Integration
-- Serial 자동 재연결
-- GNSS / NMEA / Correction-data 연동 구조
-- 로컬 저장·재전송
-- 산업용 통신 인터페이스 연동 구조 검토
-- 장비 선정·구매·시험계획 정리
-- Mock 검증과 실장비 미검증 범위를 구분하여 문서화
+Work includes:
 
-### Forest Disaster MANET / Mesh Relay
-- 이동·투하형 Mesh/MANET 후보 기술 비교
-- NLOS / Hop / Throughput / Latency / Power / Weight / Certification 항목 정리
-- 시험 KPI와 공급사 확인항목 정리
+- CAD / BIM spatial-information-based communication shadow prediction concept
+- AP / relay placement optimization concept
+- communication-network redesign according to construction-stage changes
+- operational scenario and proposal structure
+- competition proposal preparation and submission
 
-### Drone Edge AI / VR
-- Drone/Camera → Edge Vision → Detection → Realtime Bridge → VR/XR 데이터 흐름 분석
-- HW · AI · VR 요구사항 Gap 정리
-- 확인된 요구사항과 미확정 요구사항 분리
+---
 
-### Precision Drop PoC Review
-- 드론 위치·고도·속도와 투하시점의 시스템 관계 분석
-- 기술자료 검토 / PoC Concept / Requirement Gap 정리
+## 🚗 5th Future Mobility Industry Idea Competition — MobiThread-AI
 
-### UAV Virtual Training / Evaluation PoC
-제가 직접 수행한 내부 Software PoC 범위:
+**SDV Manufacturing / Operation Data · Predictive Quality Management | Ongoing**
+
+Concept: connect manufacturing and in-vehicle operational data into a **2-way Digital Thread** for predictive quality management.
+
+Research / prototype direction:
+
+- manufacturing IoT / process data
+- firmware / CAN / DTC / OTA logs
+- production-to-operation traceability
+- anomaly and degradation analysis
+- minimum experiment / validation structure
+- research-paper-oriented evidence development
+
+---
+
+## 🧭 PAICHAI NEXUS
+
+**Student-led Interdisciplinary Project Lab Initiative · Planning / Leadership**
+
+[Project Workspace / Notion](https://app.notion.com/p/PAICHAI-NEXUS-3b512a50eef78078a5d6fb921a3d5896?source=copy_link)
+
+PAICHAI NEXUS is an interdisciplinary project-lab initiative designed to connect students across majors around **real problems, projects, competitions, and external collaboration**.
+
+Current focus:
+
+- project-lab planning and proposal development
+- multidisciplinary project discovery
+- team formation and project-lead structure
+- competition / research / industry linkage
+- student-driven project execution and portfolio development
+
+```text
+Problem Discovery
+      ↓
+Interdisciplinary Team
+      ↓
+Prototype / Execution
+      ↓
+Verification
+      ↓
+Competition / Research / Industry
+      ↓
+Portfolio
+```
+
+---
+
+## Additional Competition Activity
+
+| Field | Activity | Current Scope |
+|---|---|---|
+| 🛩️ UAV | **24th Korea Robot Aircraft Competition — SkyEdge** | 1st preliminary passed · Software / System Integration / PM |
+| 🌍 Open Source | **2026 Open Source Developer Competition — RescueMap OS** | disaster / missing-person response GIS system |
+| 📡 UAM | **UAM Olympiad — Ghost Ant Handover** | mobile-environment handover optimization research |
+
+---
+
+# Industry R&D Experience
+
+> Public profile only includes **work I personally participated in**.  
+> Company source code, internal documents, customer/agency information, credentials, internal network details, and non-public requirements are intentionally excluded.
+
+## 🌲 Disaster Integrated Control Software
+
+**Frontend Restructuring · Integration Review · Technical Documentation**
+
+- analyzed existing integrated-control frontend structure
+- redesigned map-centered control-room UI structure
+- resolved React / TypeScript build and merge issues
+- reviewed backend API / DB integration without changing existing interfaces
+- documented integration boundaries and verification status
+
+---
+
+## 🧰 Field Gateway
+
+**Gateway Software · Interface Design · Test Preparation**
+
+Worked on software / architecture around:
+
+- serial auto-reconnect
+- GNSS NMEA processing
+- NTRIP connection
+- RTCM correction-data reception
+- local buffering / resend
+- backend status reporting
+- CAN / RS485 / Modbus integration planning
+- hardware acceptance-test planning
+
+---
+
+## 📍 GNSS / RTK Integration
+
+**Component Selection · Integration Planning · Verification Boundary**
+
+- reviewed and selected ZED-F9P-class GNSS / RTK components
+- organized purchase items and test criteria
+- designed Equipment Gateway integration flow
+- separated mock/software verification from actual hardware verification
+- prepared for NMEA / RTCM / RTK Fix field tests
+
+---
+
+## 📡 Forest Disaster MANET / Mesh Relay
+
+**Technical Comparison · Requirement Analysis · Test Criteria**
+
+- compared MANET / Mesh relay candidates
+- evaluated NLOS / Hop / Throughput / Latency / Power / Weight / Certification factors
+- reflected drone-carried / deployable relay constraints
+- organized deployment-time, position-update, information-sharing, and availability KPIs
+- separated internal engineering judgment from supplier-confirmation items
+
+---
+
+## 🥽 Drone Edge AI / VR
+
+**Requirement-Gap Analysis · Data-flow Architecture**
+
+Analyzed the end-to-end structure:
+
+```text
+Drone / Camera
+      ↓
+Edge Vision
+      ↓
+Detection
+      ↓
+Realtime Bridge
+      ↓
+VR / XR
+```
+
+Work included:
+
+- HW / AI / VR requirement mapping
+- interface and data-flow analysis
+- confirmed / unconfirmed requirement separation
+- implementation-gap documentation
+
+---
+
+## 🎯 Precision Drop PoC
+
+**System Concept · Requirement Review**
+
+- analyzed relationship among drone position, altitude, speed, and drop timing
+- reviewed technical inputs and PoC architecture
+- separated required inputs, assumptions, and unresolved criteria before implementation
+
+---
+
+## 🛩️ UAV Virtual Training / Evaluation — Internal Software PoC
+
+**Software Architecture · Scenario / Evaluation Pipeline · MAVLink Boundary · Evidence Design**
+
+Built an internal software PoC around a vendor-independent training architecture.
 
 ```text
 Drone / Simulator Input
@@ -212,88 +312,342 @@ Evaluation Evidence
         ↓
 Rule Evaluation
         ↓
-AAR / Reproducible Evidence Bundle
+AAR / Evidence Bundle
 ```
 
-- Common Drone State 및 movement-path 확장
-- SYSTEM / TRAINEE 입력 분리
-- Generic telemetry adapter / stream PoC
-- Scenario / Training Log / Evaluation / AAR 파이프라인
-- 자동 테스트 및 재현 가능한 Evidence Bundle
-- Requirements / ConOps / Data Dictionary와 코드 정합성 관리
+Implemented / designed:
 
-**Boundary:** 공식 운용요구·실기체 인수검증 결과가 아니라 **내부 기술검증용 Software PoC**입니다.
+- Common Drone State
+- movement-path extension
+- SYSTEM / TRAINEE input separation
+- generic MAVLink adapter
+- decoded-stream pipeline
+- live-input boundary
+- 8-step internal scenario flow
+- Common Training Log
+- response-time evidence derivation
+- rule-based evaluation adapter
+- AAR Markdown generation
+- Training Log / Evaluation JSON evidence export
+- ConOps / requirements / data-dictionary alignment
+- automated regression tests
 
-### Drone / GCS Communication Test
-- Drone / Controller / PC / GCS 통신구성 점검
-- UDP / Telemetry forwarding 확인
-- 네트워크 패킷 기반 Troubleshooting
-- 연결 문제 원인범위 분리
-- 정식 인수시험을 위한 Checklist 정리
+**Boundary:** This is an **INTERNAL_DRAFT technical PoC**, not an official military requirement implementation or hardware acceptance result.
 
 ---
 
-# 🧪 Self-Directed Engineering Labs
+## 📶 Drone / GCS Communication Test
+
+**Communication Troubleshooting · Test Planning**
+
+- drone / controller / PC / GCS configuration review
+- UDP / telemetry forwarding checks
+- packet-level network troubleshooting
+- external-network GPS Fix verification experience
+- issue-boundary analysis for PC-side GCS connectivity
+- formal acceptance-test checklist preparation
+
+---
+
+# Selected Public / Academic Projects
+
+## 🧬 BioDockLab
+
+[Repository](https://github.com/gxmzung/BioDockLab)
+
+**Bio AI research and experiment platform**
+
+My work:
+
+- project planning
+- system architecture
+- prototype development
+- experiment / analysis dashboard
+- API-based result integration
+- technical presentation and Q&A
+
+**Outcome:** 🏆 **Top Prize (최우수상)** — 2026 Future Government Innovation Idea Contest
+
+---
+
+## 🏫 Paejae Pick 2
+
+[Repository](https://github.com/gxmzung/paejae-pick-2-app)
+
+**Smart-campus student life platform**
+
+- service planning and development
+- Flutter MVP
+- campus information architecture
+- department / club / participation / cafeteria workflows
+- real-device QA
+- internal-test and release-scope management
+
+**Related Outcome:** 🏆 **Encouragement Award (장려상)** — 2026 Intelligent Innovation Idea Contest
+
+---
+
+## 🛩️ VTOL Autonomy Lab
+
+[Repository](https://github.com/gxmzung/vtol-autonomy-lab)
+
+**PX4 VTOL autonomous mission verification framework**
+
+Focus:
+
+- MissionRaw / MAVSDK Action / Offboard / RTL responsibility separation
+- Virtual FC
+- mission state machine
+- Failsafe Supervisor
+- Command Guard
+- fault-scenario verification
+- mission consistency checks
+- automated testing
+- target-estimation experiments
+
+---
+
+## ✈️ SkyEdge VTOL
+
+[Repository](https://github.com/gxmzung/skyedge_vtol)
+
+**ROS2 / PX4-oriented UAV mission-system project**
+
+- UAV mission flow
+- ROS2 / PX4 integration structure
+- telemetry and health monitoring
+- guidance / waypoint concepts
+- vision-assisted mission logic
+- SITL-oriented verification
+
+**Outcome:** 24th Korea Robot Aircraft Competition — **1st Preliminary Passed**
+
+---
+
+## ⚙️ Mission State Machine C++
+
+[Repository](https://github.com/gxmzung/mission-state-machine-cpp)
+
+**Autonomous mission logic and failsafe flow in C++**
+
+- explicit mission-state transitions
+- telemetry health checks
+- failsafe behavior
+- command validation
+- mission-control structure
+
+---
+
+## 🛠️ FieldOps Embedded Diagnostic Suite
+
+[Repository](https://github.com/gxmzung/fieldops-embedded-diagnostic-suite)
+
+**Embedded / field telemetry diagnostics toolkit**
+
+- serial parsing
+- GNSS monitoring
+- telemetry inspection
+- C-based scheduling logic
+- log analysis
+- field diagnostics workflow
+- dashboard prototype
+
+---
+
+## 📡 Ghost Ant Handover
+
+[Repository](https://github.com/gxmzung/ghost-ant-handover)
+
+**UAM communication handover optimization study**
+
+- mobile aerial-network handover
+- signal strength / latency / load evaluation
+- route-based scenarios
+- optimization-oriented decision logic
+- quantitative experiment logs
+
+---
+
+## 🌍 RescueMap OS
+
+[Repository](https://github.com/gxmzung/rescuemap-os)
+
+**GIS-based disaster-response software**
+
+- disaster map layers
+- field information visualization
+- vulnerable-user / missing-person response concepts
+- failure-map reporting
+- operational decision support
+
+---
+
+## 🧠 Memory Twin
+
+[Repository](https://github.com/gxmzung/Memory-Twin)
+
+Digital-twin / memory-oriented AI system experiment focused on **state, history, and AI interaction**.
+
+---
+
+## 🏙️ CityBrain
+
+[Repository](https://github.com/gxmzung/CityBrain)
+
+Smart-campus data / service project exploring how campus data can expand toward **Smart Campus → Smart City** concepts.
+
+---
+
+# Self-Directed Engineering Labs
+
+> These repositories are smaller engineering labs used to strengthen low-level systems, telemetry, UAV, and diagnostics fundamentals.
 
 | Repository | Focus |
 |---|---|
 | [telemetry-packet-parser-c](https://github.com/gxmzung/telemetry-packet-parser-c) | C telemetry packet parsing |
-| [binary-packet-inspector-c](https://github.com/gxmzung/binary-packet-inspector-c) | Binary protocol inspection |
+| [binary-packet-inspector-c](https://github.com/gxmzung/binary-packet-inspector-c) | binary protocol inspection |
 | [uart-diagnostic-cli-c](https://github.com/gxmzung/uart-diagnostic-cli-c) | UART diagnostic CLI |
-| [embedded-telemetry-lab-c](https://github.com/gxmzung/embedded-telemetry-lab-c) | Embedded telemetry fundamentals |
-| [fieldops-embedded-diagnostic-suite](https://github.com/gxmzung/fieldops-embedded-diagnostic-suite) | Field diagnostics / GNSS / telemetry |
-| [mission-state-machine-cpp](https://github.com/gxmzung/mission-state-machine-cpp) | Mission state / failsafe logic |
-| [vtol-autonomy-lab](https://github.com/gxmzung/vtol-autonomy-lab) | VTOL mission verification / autonomy |
-| [px4-fault-aware-mission-verification](https://github.com/gxmzung/px4-fault-aware-mission-verification) | PX4 fault-aware mission verification |
+| [embedded-telemetry-lab-c](https://github.com/gxmzung/embedded-telemetry-lab-c) | embedded telemetry fundamentals |
+| [fieldops-embedded-diagnostic-suite](https://github.com/gxmzung/fieldops-embedded-diagnostic-suite) | field diagnostics / GNSS / telemetry |
+| [mission-state-machine-cpp](https://github.com/gxmzung/mission-state-machine-cpp) | mission state / failsafe logic |
+| [vtol-autonomy-lab](https://github.com/gxmzung/vtol-autonomy-lab) | VTOL mission verification |
+| [px4-fault-aware-mission-verification](https://github.com/gxmzung/px4-fault-aware-mission-verification) | PX4 fault-aware verification |
 | [ros2-px4-yaml-param-debug](https://github.com/gxmzung/ros2-px4-yaml-param-debug) | ROS2 / PX4 debugging notes |
 
+Several additional experimental or ongoing repositories are kept **private** while they contain unfinished work or non-public technical context.
+
 ---
 
-## ⚙️ Engineering Background
+# Engineering Background
 
-- Circuit / schematic review
-- BOM / parts management
+Before and during university, I worked in environments involving both hardware and software.
+
+## Electronics / Embedded Experience
+
+- circuit and schematic review
+- BOM / component management
 - Gerber / PCB / SMT production workflow
-- Firmware modification and test support
-- Linux / UART equipment
+- hardware assembly and inspection
+- firmware modification and test support
+- Linux / UART-based equipment
 - i.MX6 / Zynq-based systems
-- Production troubleshooting / technical communication
+- production troubleshooting
+- technical communication across teams
 
-과거 항공·방산 전자제품 생산 관련 업무에도 참여했지만, **고객·회로·세부 프로그램 정보는 공개하지 않습니다.**
+I also participated in **aerospace / defense electronics production work within externally disclosable boundaries**.
+
+> Specific customer, subsystem, circuit, and program details are intentionally omitted.
+
+This background is why I prefer software that ultimately works on **real hardware, vehicles, communication links, and field systems**.
 
 ---
 
-## 🛠 Technical Stack
+# Technical Stack
 
-**Systems / UAV**  
+## Systems / Robotics
+
 `C` · `C++` · `Python` · `Linux` · `ROS2` · `PX4` · `MAVLink` · `MAVSDK`
 
-**Embedded / Interfaces**  
-`UART` · `GNSS/RTK` · `NMEA` · `NTRIP/RTCM` · `CAN` · `RS485` · `Modbus`
+## Embedded / Interfaces
 
-**Backend / Integration**  
+`UART` · `GNSS / RTK` · `NMEA` · `NTRIP / RTCM` · `CAN` · `RS485` · `Modbus` · `i.MX6` · `Zynq`
+
+## Electronics / Production
+
+`PCB` · `BOM` · `Gerber` · `SMT` · hardware assembly / inspection workflow
+
+## Perception / AI / Data
+
+`OpenCV` · `YOLO` · `Kalman Filter (basic implementation)` · `Telemetry Analysis` · `RAG / LLM Prototyping`
+
+## Backend / Integration
+
 `FastAPI` · `REST API` · `WebSocket` · `Node.js` · `SQLite` · `PostgreSQL`
 
-**AI / Vision**  
-`OpenCV` · `YOLO` · `Rule-based AI` · `RAG/LLM Prototyping`
+## Development / Validation
 
-**Development / Validation**  
 `Git` · `GitHub` · `Docker` · `pytest` · `Node Test Runner` · `GitHub Actions`
 
----
-
-## 🧩 How I Work
-
-- 실제 수행 범위와 미수행 범위를 구분합니다.
-- 근거가 없는 요구사항을 공식 기능처럼 구현하지 않습니다.
-- 특정 장비 / SDK 의존성을 Common Domain과 분리합니다.
-- Code + Test + Evidence + Document를 한 묶음으로 남깁니다.
-- Mock / Simulation과 실장비 검증을 동일하게 표현하지 않습니다.
-- 기술 내용을 비개발자에게도 설명할 수 있는 구조로 정리합니다.
+I use frontend / web technologies when they are required for **GCS, control, visualization, dashboards, or system operation**, rather than as my main technical identity.
 
 ---
 
-## 🎯 Direction
+# Selected Outcomes
+
+- 🏆 **Top Prize (최우수상)** — 2026 Future Government Innovation Idea Contest · BioDockLab
+- 🏆 **Encouragement Award (장려상)** — 2026 Intelligent Innovation Idea Contest
+- 🛩️ **1st Preliminary Passed** — 24th Korea Robot Aircraft Competition
+- 🛡️ **TRAITHON** — SAFE:SEARCH · AI Engineer / Development PM
+- 🚜 **National ICT Convergence AI Competition** — AgriGuard AIoT · Technical PM
+- 🏗️ **LH Land Technology Competition** — SiteLink
+- 🚗 **Future Mobility Industry Idea Competition** — MobiThread-AI
+- 🌍 **Open Source Developer Competition** — RescueMap OS
+- 📡 **UAM Olympiad** — Ghost Ant Handover
+- 🌲 Industry R&D in disaster communication / integrated-control systems
+- 🧭 PAICHAI NEXUS — interdisciplinary project-lab planning / leadership
+
+---
+
+# How I Work
+
+I try to approach engineering problems in this order:
+
+```text
+Problem
+  ↓
+Requirement
+  ↓
+System Boundary
+  ↓
+Interfaces
+  ↓
+Implementation
+  ↓
+Failure Cases
+  ↓
+Test
+  ↓
+Evidence
+  ↓
+Documentation
+```
+
+I value:
+
+- clear system boundaries
+- realistic hardware constraints
+- reproducible tests
+- failure / fallback handling
+- interface documentation
+- measurable evidence
+- honest limitations
+- separating **implemented / simulated / unverified** work
+- explaining technical systems to both developers and non-developers
+
+---
+
+# Current Learning Direction
+
+I am strengthening the fundamentals required to move from a **system builder** toward an **autonomous-systems engineer / researcher and technical project leader**.
+
+Current priorities include:
+
+- Data Structures
+- Operating Systems
+- System Programming
+- Robotics fundamentals
+- UAV flight software
+- State estimation / sensor fusion
+- ROS2 / PX4 architecture
+- Real-time / embedded systems
+- communication / networking
+- control / mathematics for autonomous systems
+
+My goal is not to separate theory from implementation, but to learn the theory required to **understand, modify, verify, and lead real autonomous-system projects**.
+
+---
+
+# Long-Term Direction
 
 ```text
 Electronics / Embedded
@@ -302,17 +656,22 @@ Systems & Interfaces
         ↓
 UAV / Robotics / Communication
         ↓
-Mission & Field Software
+Mission Autonomy
         ↓
-Technical PM / Program Management
+Multi-Unmanned Systems
         ↓
-Autonomous / Defense / Disaster Systems
+Technical PM / Program Leadership
+        ↓
+Autonomous Aerospace / Defense / Disaster Systems
 ```
 
-장기적으로는 **하드웨어·소프트웨어·통신·운용·일정을 함께 이해하고 프로젝트를 끝까지 끌고 갈 수 있는 기술 PM / 프로그램 리더**를 목표로 합니다.
+I want to grow into an engineer and project leader who can connect:
+
+**hardware + embedded software + robotics + communication + mission logic + AI + field operation + project execution**
 
 ---
 
 ## Contact
 
-- GitHub: [github.com/gxmzung](https://github.com/gxmzung)
+- GitHub: https://github.com/gxmzung
+- Email: leeyj4748@naver.com
