@@ -481,31 +481,42 @@ User / Field Validation
 Competition · Research · Industry Collaboration
       ↓
 Portfolio / Publication / Follow-up Project
+```
 
-👥 Role — Founder & President
+## 👥 Role — Founder & President
 
 As the founder and president of PAICHAI NEXUS, I coordinate the overall direction of interdisciplinary projects and team operations.
 
-discover project and research opportunities
-form multidisciplinary teams
-define project scope and expected outcomes
-coordinate students, professors, companies, and institutions
-manage schedules, responsibilities, risks, and checkpoints
-connect technical development with domain-expert validation
-prepare competition, research, presentation, and portfolio outputs
-design a sustainable student-led project organization
-🧭 2026 Interdisciplinary Projects
-Field / Major	Project
-🌱 Horticulture & Forestry	Vision AI-based crop growth diagnosis and customized pest-control / fertilization solution
-🏥 Nursing	Integrated Hospital Information System (HIS) and nursing-workflow optimization for university hospitals
-🧬 Biotechnology	BioDockLab — global clinical-trial data management and biobanking platform
-🏗️ Railway / Civil Engineering	Structural-stability research based on geological characteristics of the Doma–Doan tunnel section
-⚽ Sports & Leisure	O2O platform for elite youth-athlete matching and career management
-🍽️ FoodTech Collaboration Concepts
-① Vision AI Zero-Waste Recipe Platform
+- discover project and research opportunities
+- form multidisciplinary teams
+- define project scope and expected outcomes
+- coordinate students, professors, companies, and institutions
+- manage schedules, responsibilities, risks, and checkpoints
+- connect technical development with domain-expert validation
+- prepare competition, research, presentation, and portfolio outputs
+- design a sustainable student-led project organization
+
+---
+
+## 🧭 2026 Interdisciplinary Projects
+
+| Field / Major | Project |
+| --- | --- |
+| 🌱 **Horticulture & Forestry** | Vision AI-based crop growth diagnosis and customized pest-control / fertilization solution |
+| 🏥 **Nursing** | Integrated Hospital Information System (HIS) and nursing-workflow optimization for university hospitals |
+| 🧬 **Biotechnology** | BioDockLab — global clinical-trial data management and biobanking platform |
+| 🏗️ **Railway / Civil Engineering** | Structural-stability research based on geological characteristics of the Doma–Doan tunnel section |
+| ⚽ **Sports & Leisure** | O2O platform for elite youth-athlete matching and career management |
+
+---
+
+## 🍽️ FoodTech Collaboration Concepts
+
+### ① Vision AI Zero-Waste Recipe Platform
 
 A FoodTech platform that analyzes available ingredients through images, identifies ingredients that should be consumed first, and recommends recipes that can actually be prepared.
 
+```text
 Ingredient Image
       ↓
 Ingredient / Condition Recognition
@@ -519,20 +530,29 @@ Culinary Validation
 Nutrition / Allergy / Safety Review
       ↓
 User Evaluation
-Collaboration
-AI / Software — computer vision, recommendation logic, mobile/web prototype
-Culinary Arts — cooking feasibility and recipe validation
-Food & Nutrition — nutrition, allergy, and food-safety validation
-Users — usability and satisfaction evaluation
-Expected Outputs
-mobile / web service prototype
-validated recipe dataset
-Zero-Waste food-consumption support feature
-interdisciplinary FoodTech research results
-② AI Menu Development & Consumer Evaluation
+```
+
+### Collaboration
+
+- **AI / Software** — computer vision, recommendation logic, mobile/web prototype
+- **Culinary Arts** — cooking feasibility and recipe validation
+- **Food & Nutrition** — nutrition, allergy, and food-safety validation
+- **Users** — usability and satisfaction evaluation
+
+### Expected Outputs
+
+- mobile / web service prototype
+- validated recipe dataset
+- Zero-Waste food-consumption support feature
+- interdisciplinary FoodTech research results
+
+---
+
+### ② AI Menu Development & Consumer Evaluation
 
 A Human-in-the-Loop menu-development project where AI proposes menu and recipe candidates, culinary students refine them into actual dishes, and consumer evaluation data is used to improve subsequent AI recommendations.
 
+```text
 Target Ingredient
       ↓
 AI Menu / Recipe Generation
@@ -550,28 +570,40 @@ Taste · Price · Preference · Repurchase Survey
 Data Analysis
       ↓
 Next AI Recommendation Cycle
-Expected Outputs
-AI-human co-developed menus
-consumer-preference dataset
-menu-development and evaluation research report
-competition / academic research outputs
-follow-up FoodTech service development
-🏛️ Organization Structure
-Division	Responsibility
-Planning & Strategy	Idea discovery, project planning, organizational direction
-Project Operations	Schedule, personnel, progress, risk, and checkpoint management
-Research & Development	AI, software, hardware, embedded systems, and technical implementation
-Design & Communication	UI/UX, design, content, SNS, promotion, and presentation materials
-External Relations	Collaboration with professors, companies, institutions, and other universities
-Business Support	Budget, purchasing, accounting, and member administration
-Education & Events	Major mentoring, youth/university education, exhibitions, and experience booths
-Humanities & User Research	Administrative, legal, psychological, social, and user-centered review
-🎯 Operating Model
+```
+
+### Expected Outputs
+
+- AI-human co-developed menus
+- consumer-preference dataset
+- menu-development and evaluation research report
+- competition / academic research outputs
+- follow-up FoodTech service development
+
+---
+
+## 🏛️ Organization Structure
+
+| Division | Responsibility |
+| --- | --- |
+| **Planning & Strategy** | Idea discovery, project planning, organizational direction |
+| **Project Operations** | Schedule, personnel, progress, risk, and checkpoint management |
+| **Research & Development** | AI, software, hardware, embedded systems, and technical implementation |
+| **Design & Communication** | UI/UX, design, content, SNS, promotion, and presentation materials |
+| **External Relations** | Collaboration with professors, companies, institutions, and other universities |
+| **Business Support** | Budget, purchasing, accounting, and member administration |
+| **Education & Events** | Major mentoring, youth/university education, exhibitions, and experience booths |
+| **Humanities & User Research** | Administrative, legal, psychological, social, and user-centered review |
+
+---
+
+## 🎯 Operating Model
 
 PAICHAI NEXUS is structured around one principle:
 
-Interdisciplinary collaboration only creates value when each major contributes real domain expertise.
+> **Interdisciplinary collaboration only creates value when each major contributes real domain expertise.**
 
+```text
 Engineering / Technology
         +
 Domain Expertise
@@ -583,15 +615,16 @@ Measurable Evidence
 Interdisciplinary Project
         ↓
 Research · Competition · Prototype · Collaboration
+```
 
 Technical development is therefore paired with:
 
-domain-expert validation
-measurable outcomes
-user or field evaluation
-documentation
-clear project ownership
-follow-up paths such as research papers, competitions, prototypes, or industry collaboration
+- domain-expert validation
+- measurable outcomes
+- user or field evaluation
+- documentation
+- clear project ownership
+- follow-up paths such as research papers, competitions, prototypes, or industry collaboration
 
 ---
 
