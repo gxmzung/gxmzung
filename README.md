@@ -11,11 +11,9 @@
 
 </div>
 
----
-
 ## About Me
 
-I am a **Computer Engineering student and system builder** focused on autonomous, embedded, and field-deployed systems.
+I am **Youngjun Lee (이영준)**, a Computer Engineering student at **Pai Chai University (배재대학교)** and a system builder focused on autonomous, embedded, and field-deployed systems.
 
 My engineering background began with electronics and embedded production workflows, including:
 
@@ -27,17 +25,21 @@ My engineering background began with electronics and embedded production workflo
 
 Today, my main technical interests are:
 
-- UAV / VTOL mission systems
+- Autonomous Systems
+- UAV / VTOL
 - ROS2 / PX4 / MAVLink
-- embedded and mission software
-- telemetry and diagnostics
+- Embedded Linux
+- C / C++
 - GNSS / RTK
-- field communication systems
-- disaster-response platforms
-- edge AI / computer vision
-- system integration and verification
+- Telemetry
+- Field Communication
+- System Integration
+- Edge AI / Computer Vision
+- Disaster Response Systems
+- Physical AI
+- Technical Project Management
 
-I am particularly interested in systems where software must operate together with:
+I am particularly interested in engineering systems where software must operate together with:
 
 **flight controllers + onboard computers + sensors + communication links + networks + operators + real hardware**
 
@@ -57,8 +59,6 @@ Evidence
 
 My long-term direction is to grow from an engineer who can **build and verify systems** into a technical project / program leader who understands the systems being led.
 
----
-
 ## Featured Engineering Work
 
 ### 🛩️ UAV Virtual Training / Evaluation PoC
@@ -74,7 +74,7 @@ Designed and implemented an internal software PoC for a vendor-independent UAV t
 - generic MAVLink adapter
 - decoded-stream pipeline
 - live-input boundary
-- 8-step internal scenario flow
+- internal scenario flow
 - Common Training Log
 - response-time evidence derivation
 - rule-based evaluation adapter
@@ -103,8 +103,6 @@ AAR / Evidence Bundle
 
 > **Boundary:** Internal technical PoC only.  
 > It is not presented as an official military requirement implementation or hardware acceptance result.
-
----
 
 ### 🧰 Field Gateway / GNSS / RTK Integration
 
@@ -135,8 +133,6 @@ Simulated
 Hardware Verified
 </pre>
 
----
-
 ### 📡 Disaster Communication & Control Integration
 
 **Network Analysis · Requirement Review · Test Design · System Integration**
@@ -161,27 +157,26 @@ Worked on communication and integrated-control systems for field and disaster-re
 - React / TypeScript build and merge troubleshooting
 - backend API / DB integration-boundary review
 - implementation / verification status documentation
+- telemetry / GNSS / UAV integration review
 
 > Company source code, credentials, customer / agency details, internal networks, and non-public requirements are intentionally excluded.
 
----
-
-## Selected Projects
+## Selected Engineering Projects
 
 ### ✈️ [SkyEdge VTOL](https://github.com/gxmzung/skyedge_vtol)
 
-ROS2 / PX4-oriented UAV mission-system project.
+ROS2 / PX4-oriented autonomous UAV mission-system project.
 
 - UAV mission flow
-- ROS2 / PX4 integration structure
+- ROS2 / PX4 integration
 - telemetry and health monitoring
 - guidance / waypoint concepts
 - vision-assisted mission logic
 - SITL-oriented verification
 
-**Outcome:** 24th Korea Robot Aircraft Competition — **1st Preliminary Passed**
+**Keywords:** ROS2 · PX4 · UAV · VTOL · MAVLink · Telemetry · Computer Vision
 
----
+**Outcome:** 24th Korea Robot Aircraft Competition — **1st Preliminary Passed**
 
 ### ⚙️ [Mission State Machine C++](https://github.com/gxmzung/mission-state-machine-cpp)
 
@@ -193,7 +188,7 @@ Autonomous mission and failsafe logic implemented in C++.
 - command validation
 - mission-control structure
 
----
+**Keywords:** C++ · State Machine · Mission Logic · Failsafe · Embedded Systems
 
 ### 🛩️ [VTOL Autonomy Lab](https://github.com/gxmzung/vtol-autonomy-lab)
 
@@ -208,7 +203,7 @@ PX4 VTOL mission-verification framework.
 - mission consistency checks
 - automated testing
 
----
+**Keywords:** PX4 · MAVSDK · VTOL · Autonomous Mission · Verification
 
 ### 🛠️ [FieldOps Embedded Diagnostic Suite](https://github.com/gxmzung/fieldops-embedded-diagnostic-suite)
 
@@ -222,7 +217,7 @@ Embedded and field-telemetry diagnostic toolkit.
 - field diagnostic workflow
 - dashboard prototype
 
----
+**Keywords:** Embedded · C · Serial · GNSS · Telemetry · Diagnostics
 
 ### 📡 [Ghost Ant Handover](https://github.com/gxmzung/ghost-ant-handover)
 
@@ -234,7 +229,7 @@ UAM communication handover optimization study.
 - optimization-oriented decision logic
 - quantitative experiment logs
 
----
+**Keywords:** UAM · Communication · Handover · Networking · Optimization
 
 ### 🌍 [RescueMap OS](https://github.com/gxmzung/rescuemap-os)
 
@@ -246,7 +241,7 @@ GIS-based disaster-response software.
 - failure-map reporting
 - operational decision support
 
----
+**Keywords:** GIS · Disaster Response · Mapping · Decision Support
 
 ## Interdisciplinary Projects
 
@@ -262,14 +257,15 @@ Bio AI research and experiment platform.
 - experiment / analysis dashboard
 - API-based result integration
 - technical presentation and Q&A
+- interactive exhibition prototype development
 
-🏆 **Top Prize — 2026 Future Government Innovation Idea Contest**
+**Keywords:** Bio AI · Biotechnology · Research Platform · Data Visualization · AI
 
----
+🏆 **2026 Future Government Innovation Idea Contest — Top Prize / 1st Place**
 
 ### 🏫 [Paejae Pick 2](https://github.com/gxmzung/paejae-pick-2-app)
 
-Smart-campus student-life platform.
+Smart-campus integrated student-life platform.
 
 - service planning and development
 - Flutter MVP
@@ -278,15 +274,203 @@ Smart-campus student-life platform.
 - real-device QA
 - internal-test and release-scope management
 
-🏆 **Encouragement Award — 2026 Intelligent Innovation Idea Contest**
+**Keywords:** Smart Campus · Flutter · Mobile Application · Campus Platform
 
----
+🏆 **2026 Intelligent Innovation Idea Contest — Encouragement Award**
+
+## Competitions, Hackathons & Academic Activities
+
+### 🏆 2026 Future Government Innovation Idea Contest
+
+**Project:** BioDockLab  
+**Focus:** Bio AI · Research Platform · System Architecture · Prototype Development
+
+**Result:** 🏆 **Top Prize / 1st Place**
+
+### 🏆 2026 Intelligent Innovation Idea Contest
+
+**Project:** Paejae Pick
+
+**Focus:** Smart Campus · Mobile Application · Student Service Platform
+
+**Result:** 🏆 **Encouragement Award**
+
+### 🛩️ 24th Korea Robot Aircraft Competition
+
+**Project:** SkyEdge VTOL
+
+Technical areas:
+
+- ROS2
+- PX4
+- Pixhawk
+- autonomous mission logic
+- telemetry
+- computer vision
+- RTK-GNSS
+- onboard computing
+- mission-system integration
+
+**Result:** **1st Preliminary Passed**
+
+### 🚜 National ICT Convergence AI Competition
+
+**Project:** AgriGuard AIoT  
+**Role:** Technical PM · System Integration
+
+AIoT safety platform for agricultural environments.
+
+Technical areas include:
+
+- sensor integration
+- GPS
+- edge devices
+- server integration
+- FastAPI
+- WebSocket
+- hardware / API / server / UI coordination
+- real-time monitoring
+- development checkpoint management
+
+**Status:** Ongoing
+
+### 🛡️ TRAITHON
+
+**Project:** SAFE:SEARCH  
+**Role:** AI Engineer · Development PM
+
+AI-assisted safety-search platform for digital-crime victim support.
+
+Responsibilities include:
+
+- development planning
+- service architecture
+- AI-result integration
+- privacy and sensitive-information handling
+- Human-in-the-Loop design
+- multidisciplinary team coordination
+
+**Status:** Ongoing
+
+### 🏗️ LH Land Technology Competition
+
+**Project:** SiteLink
+
+Technical areas include:
+
+- temporary communication networks
+- communication-shadow prediction
+- field connectivity
+- infrastructure optimization
+- system architecture
+
+**Status:** Competition Project
+
+### 🚗 Future Mobility Industry Idea Competition
+
+**Project:** MobiThread-AI
+
+Research and engineering areas include:
+
+- Digital Thread
+- predictive quality
+- engineering-data integration
+- AI-assisted analysis
+- mobility-system lifecycle management
+
+**Status:** Research / Competition Project
+
+### 📡 UAM Olympiad
+
+**Project:** Ghost Ant Handover
+
+Technical areas include:
+
+- aerial-network handover
+- signal strength
+- latency
+- network load
+- route-based scenarios
+- optimization-oriented decision logic
+- quantitative experiment analysis
+
+**Status:** Research / Competition Project
+
+### 🌍 Open Source Developer Competition
+
+**Project:** RescueMap OS
+
+Core areas include:
+
+- disaster GIS
+- map layers
+- field-information visualization
+- vulnerable-user / missing-person response
+- operational decision support
+- failure-map reporting
+
+**Status:** Open Source / Competition Project
+
+### 🤝 2026 Regional Community Problem-Solving Social Venture Hackathon
+
+Participating in the **2026 Regional Community Problem-Solving Social Venture Hackathon**, an interdisciplinary program focused on identifying real community problems and developing practical social-venture solutions.
+
+<pre>
+Community Problem
+      ↓
+Problem Definition
+      ↓
+Interdisciplinary Team
+      ↓
+Solution Concept
+      ↓
+Prototype / Service Model
+      ↓
+Validation
+      ↓
+Social Impact
+</pre>
+
+**Status:** Preparing / Participating
+
+### 📚 Academic Conference & Symposium Activities
+
+Preparing and participating in academic and interdisciplinary research activities related to:
+
+- autonomous systems
+- UAV / robotics
+- embedded systems
+- field communication
+- AI / computer vision
+- Physical AI
+- system integration
+- interdisciplinary engineering
+- applied research
+- prototype validation
+
+My academic workflow is:
+
+<pre>
+Research Question
+      ↓
+Technical Implementation
+      ↓
+Experiment
+      ↓
+Measurable Evidence
+      ↓
+Analysis
+      ↓
+Presentation / Publication
+</pre>
 
 ## PAICHAI NEXUS
 
 **Founder & Lab Lead · Student-led Interdisciplinary Project Lab**
 
-PAICHAI NEXUS is a student-led interdisciplinary project organization at Pai Chai University.
+PAICHAI NEXUS is a student-led interdisciplinary project organization at **Pai Chai University (배재대학교)**.
+
+The organization connects students from engineering, science, healthcare, design, business, humanities, and other disciplines to build practical interdisciplinary projects.
 
 My role focuses on:
 
@@ -296,28 +480,38 @@ My role focuses on:
 - coordinating technical and domain-expert collaboration
 - managing schedules, responsibilities, risks, and checkpoints
 - connecting development with field / user validation
-- preparing research, competition, prototype, and portfolio outputs
-- coordinating external collaboration with professors, companies, and institutions
-
-> **Interdisciplinary collaboration creates value when each major contributes real domain expertise.**
+- preparing prototypes, competitions, research, and presentations
+- coordinating collaboration with professors, companies, and institutions
 
 <pre>
 Problem Discovery
       ↓
-Team Formation
+Interdisciplinary Team Formation
       ↓
-Requirement Definition
+Research / Requirement Definition
       ↓
-Prototype / Research
+Prototype Development
       ↓
 User / Field Validation
       ↓
 Evidence
       ↓
-Competition · Publication · Collaboration
+Competition · Research · Collaboration
+      ↓
+Portfolio / Publication / Follow-up Project
 </pre>
 
----
+### 2026 NEXUS Project Areas
+
+- 🌱 **Smart Seedling AI** — Vision AI-based crop growth diagnosis and smart agricultural support
+- 🏥 **Healthcare HIS** — hospital information and nursing-workflow platform
+- 🧬 **BioDockLab** — biotechnology / Bio AI research platform
+- 🏗️ **Tunnel Stability Research** — geological and structural stability analysis
+- ⚽ **Elite Youth Sports Platform** — athlete matching and career-support service
+- 🏫 **Paejae Pick 2.0** — smart-campus integrated application
+- 🍽️ **Zero-Waste FoodTech** — AI-assisted food and recipe platform
+
+> **Interdisciplinary collaboration creates value when each major contributes real domain expertise.**
 
 ## Engineering Background
 
@@ -347,19 +541,20 @@ I prefer software that ultimately interacts with:
 
 **real hardware, vehicles, sensors, communication links, and field environments.**
 
----
-
 ## Technical Stack
 
 ### Systems / Robotics
 
-`C` · `C++` · `Python` · `Linux`  
+`C` · `C++` · `Python` · `Linux`
+
 `ROS2` · `PX4` · `MAVLink` · `MAVSDK`
 
 ### Embedded / Interfaces
 
-`UART` · `CAN` · `RS485` · `Modbus`  
-`GNSS / RTK` · `NMEA` · `NTRIP` · `RTCM`  
+`UART` · `CAN` · `RS485` · `Modbus`
+
+`GNSS / RTK` · `NMEA` · `NTRIP` · `RTCM`
+
 `i.MX6` · `Zynq`
 
 ### Electronics / Production
@@ -368,24 +563,27 @@ I prefer software that ultimately interacts with:
 
 ### AI / Perception / Data
 
-`OpenCV` · `YOLO`  
-`Kalman Filter — Basic Implementation`  
-`Telemetry Analysis`  
+`OpenCV` · `YOLO`
+
+`Kalman Filter — Basic Implementation`
+
+`Telemetry Analysis`
+
 `RAG / LLM Prototyping`
 
 ### Backend / Integration
 
-`FastAPI` · `REST API` · `WebSocket`  
+`FastAPI` · `REST API` · `WebSocket`
+
 `Node.js` · `SQLite` · `PostgreSQL`
 
 ### Validation / DevOps
 
-`Git` · `GitHub` · `Docker`  
+`Git` · `GitHub` · `Docker`
+
 `pytest` · `Node Test Runner` · `GitHub Actions`
 
 > Frontend and web technologies are used primarily for GCS, control interfaces, operational dashboards, visualization, and system integration rather than as my primary engineering identity.
-
----
 
 ## Engineering Labs
 
@@ -400,24 +598,24 @@ I prefer software that ultimately interacts with:
 | [px4-fault-aware-mission-verification](https://github.com/gxmzung/px4-fault-aware-mission-verification) | PX4 fault verification |
 | [ros2-px4-yaml-param-debug](https://github.com/gxmzung/ros2-px4-yaml-param-debug) | ROS2 / PX4 debugging |
 
----
-
 ## Selected Outcomes
 
-- 🏆 **Top Prize** — 2026 Future Government Innovation Idea Contest
-- 🏆 **Encouragement Award** — 2026 Intelligent Innovation Idea Contest
-- 🛩️ **1st Preliminary Passed** — 24th Korea Robot Aircraft Competition
-- 🛡️ **TRAITHON — SAFE:SEARCH** — AI Engineer / Development PM
-- 🚜 **National ICT Convergence AI Competition — AgriGuard AIoT** — Technical PM
-- 🏗️ **LH Land Technology Competition — SiteLink**
-- 🚗 **Future Mobility Industry Idea Competition — MobiThread-AI**
-- 🌍 **Open Source Developer Competition — RescueMap OS**
-- 📡 **UAM Olympiad — Ghost Ant Handover**
+- 🏆 **Top Prize / 1st Place** — 2026 Future Government Innovation Idea Contest — BioDockLab
+- 🏆 **Encouragement Award** — 2026 Intelligent Innovation Idea Contest — Paejae Pick
+- 🛩️ **1st Preliminary Passed** — 24th Korea Robot Aircraft Competition — SkyEdge VTOL
+- 🚜 **National ICT Convergence AI Competition** — AgriGuard AIoT
+- 🛡️ **TRAITHON** — SAFE:SEARCH
+- 🏗️ **LH Land Technology Competition** — SiteLink
+- 🚗 **Future Mobility Industry Idea Competition** — MobiThread-AI
+- 📡 **UAM Olympiad** — Ghost Ant Handover
+- 🌍 **Open Source Developer Competition** — RescueMap OS
+- 🤝 **2026 Regional Community Problem-Solving Social Venture Hackathon**
+- 📚 **Academic Conference / Symposium Activities**
 - 🌲 **Industry R&D** — disaster communication / integrated-control systems
 
----
-
 ## Engineering Principles
+
+My preferred engineering process is:
 
 <pre>
 Problem
@@ -451,7 +649,58 @@ I value:
 - clear distinction between implemented / simulated / unverified work
 - communication between developers and non-developers
 
----
+## Current Technical Direction
+
+I am currently strengthening the fundamentals required for autonomous and embedded systems:
+
+- Data Structures
+- Operating Systems
+- System Programming
+- Robotics Fundamentals
+- UAV Flight Software
+- State Estimation / Sensor Fusion
+- ROS2 / PX4 Architecture
+- Real-time / Embedded Systems
+- Communication / Networking
+- Control and Mathematics for Autonomous Systems
+
+My goal is to build the theory required to:
+
+**understand → modify → verify → design → integrate → lead**
+
+real autonomous-system projects.
+
+## Long-Term Direction
+
+<pre>
+Electronics / Embedded
+        ↓
+Systems & Interfaces
+        ↓
+UAV / Robotics / Communication
+        ↓
+Mission Autonomy
+        ↓
+Physical AI
+        ↓
+Multi-Unmanned Systems
+        ↓
+Technical Project Leadership
+        ↓
+Program / System Leadership
+</pre>
+
+My long-term technical interest lies in systems that combine:
+
+**hardware + embedded software + robotics + communication + mission logic + AI + field operation**
+
+with particular interest in:
+
+**autonomous aerospace, UAV systems, disaster-response systems, embedded systems, Physical AI, and technical program leadership.**
+
+## Profile Keywords
+
+**Youngjun Lee · 이영준 · Pai Chai University · 배재대학교 · Computer Engineering · Autonomous Systems · UAV · VTOL · Embedded Systems · ROS2 · PX4 · MAVLink · Embedded Linux · C · C++ · GNSS · RTK · Telemetry · MANET · Mesh · System Integration · Physical AI · Edge AI · Computer Vision · Disaster Response · Technical PM · PAICHAI NEXUS · BioDockLab · SkyEdge VTOL · RescueMap OS · Ghost Ant Handover · AgriGuard AIoT · SAFE:SEARCH · SiteLink · Paejae Pick**
 
 ## Contact
 
