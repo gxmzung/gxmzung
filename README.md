@@ -15,6 +15,10 @@
 
 I am **Youngjun Lee (이영준)**, a Computer Engineering student at **Pai Chai University (배재대학교)** and a system builder focused on autonomous, embedded, and field-deployed systems.
 
+My engineering background includes hands-on experience in electronics, embedded systems, and production-oriented hardware development. In **2023**, I contributed to **circuit design for production hardware related to the KF-21 AESA radar**.
+
+I currently participate in field-oriented R&D and systems-integration work at **ToBeUnicorn**, involving disaster-response platforms, UAV/GCS telemetry, GNSS/RTK, field communication systems, and technical verification.
+
 My engineering background began with electronics and embedded production workflows, including:
 
 - PCB / BOM / Gerber / SMT
@@ -531,9 +535,9 @@ Before and during university, I worked in environments involving both hardware a
 - production troubleshooting
 - cross-team technical communication
 
-I also participated in aerospace / defense electronics production work within externally disclosable boundaries.
+In **2023**, I contributed to **circuit design for production hardware related to the KF-21 AESA radar**, within externally disclosable boundaries.
 
-> Specific customers, programs, subsystems, and circuit details are intentionally omitted.
+> This refers only to my limited circuit-design contribution to production hardware and does not imply responsibility for the overall radar or subsystem design. Non-public technical details and related organization identities are intentionally excluded.
 
 This background strongly influenced how I approach software.
 
@@ -700,7 +704,7 @@ with particular interest in:
 
 ## Profile Keywords
 
-**Youngjun Lee · 이영준 · Pai Chai University · 배재대학교 · Computer Engineering · Autonomous Systems · UAV · VTOL · Embedded Systems · ROS2 · PX4 · MAVLink · Embedded Linux · C · C++ · GNSS · RTK · Telemetry · MANET · Mesh · System Integration · Physical AI · Edge AI · Computer Vision · Disaster Response · Technical PM · PAICHAI NEXUS · BioDockLab · SkyEdge VTOL · RescueMap OS · Ghost Ant Handover · AgriGuard AIoT · SAFE:SEARCH · SiteLink · Paejae Pick**
+**Youngjun Lee · 이영준 · Pai Chai University · 배재대학교 · Computer Engineering · ToBeUnicorn · KF-21 AESA · Defense Electronics · Circuit Design · Production Hardware · Embedded Systems · Autonomous Systems · UAV · VTOL · ROS2 · PX4 · MAVLink · Embedded Linux · C · C++ · GNSS · RTK · Telemetry · MANET · Mesh · System Integration · Physical AI · Edge AI · Computer Vision · Disaster Response · Technical PM · PAICHAI NEXUS · BioDockLab · SkyEdge VTOL · RescueMap OS · Ghost Ant Handover · AgriGuard AIoT · SAFE:SEARCH · SiteLink · Paejae Pick**
 
 ## Contact
 
