@@ -44,9 +44,32 @@ I currently participate in field-oriented R&D and systems-integration work at **
 
 ---
 
+---
+
+# At a Glance
+
+| Area | Current Focus |
+| --- | --- |
+| **Industry R&D** | Disaster-response integrated control · UAV/GCS · GNSS/RTK · Field gateway · Technical verification |
+| **Autonomous Systems** | ROS2 · PX4 · MAVLink · VTOL mission software · Failsafe / verification |
+| **University R&D** | Smart ICT Makerthon · GIS academic research · Smart-campus / mobility · Smart agriculture |
+| **Leadership** | Founder & Lab Lead, PAICHAI NEXUS · Technical PM / interdisciplinary coordination |
+| **Selected Results** | BioDockLab 1st Place · Paejae Pick Encouragement Award · Robot Aircraft Competition 1st Preliminary Passed |
+
+---
+
 # Featured Engineering Work
 
-## 🛩️ UAV Training / Evaluation PoC
+| Work | Focus |
+| --- | --- |
+| **UAV Training / Evaluation PoC** | Common drone state · MAVLink adapter · scenario engine · evaluation evidence · AAR |
+| **Field Gateway / GNSS / RTK** | NMEA · NTRIP · RTCM · buffering · backend status · field verification |
+| **Disaster Response Platform** | Integrated control UI · UAV/GCS · positioning · maps · communications · acceptance testing |
+
+---
+
+<details>
+<summary><strong>🛩️ UAV Training / Evaluation PoC</strong></summary>
 
 **Type:** Industry R&D / Internal Technical PoC  
 **Project / Work:** Vendor-Independent UAV Training & Evaluation Architecture  
@@ -98,7 +121,12 @@ The architecture is designed so that scenario execution and evaluation evidence 
 
 > It is not presented as an official military requirement implementation or hardware acceptance result.
 
-## 🧰 Field Gateway / GNSS / RTK Integration
+</details>
+
+---
+
+<details>
+<summary><strong>🧰 Field Gateway / GNSS / RTK Integration</strong></summary>
 
 **Type:** Industry R&D  
 **Project / Work:** Field Gateway & Positioning Integration  
@@ -149,7 +177,12 @@ Receiving an NMEA or RTCM message does not by itself prove valid positioning or 
 
 **Status:** Ongoing / Field Integration
 
-## 🌲 Disaster Response Platform & Integrated Control
+</details>
+
+---
+
+<details>
+<summary><strong>🌲 Disaster Response Platform & Integrated Control</strong></summary>
 
 **Type:** Industry R&D  
 **Project / Work:** Wildfire / Landslide Integrated Control Platform  
@@ -200,11 +233,16 @@ This avoids presenting software implementation as field-proven before the requir
 
 ---
 
-# Selected Engineering Projects
+</details>
+
+---
 
 # Selected Engineering Projects
 
-## ✈️ SkyEdge VTOL
+---
+
+<details>
+<summary><strong>✈️ SkyEdge VTOL</strong></summary>
 
 **Type:** Autonomous UAV Project / Competition  
 **Project:** [SkyEdge VTOL](https://github.com/gxmzung/skyedge_vtol)  
@@ -226,7 +264,12 @@ This avoids presenting software implementation as field-proven before the requir
 
 ---
 
-## ⚙️ Mission State Machine C++
+</details>
+
+---
+
+<details>
+<summary><strong>⚙️ Mission State Machine C++</strong></summary>
 
 **Type:** Engineering Lab / Mission Software  
 **Project:** [Mission State Machine C++](https://github.com/gxmzung/mission-state-machine-cpp)  
@@ -244,7 +287,12 @@ This avoids presenting software implementation as field-proven before the requir
 
 ---
 
-## 🛩️ VTOL Autonomy Lab
+</details>
+
+---
+
+<details>
+<summary><strong>🛩️ VTOL Autonomy Lab</strong></summary>
 
 **Type:** Engineering Lab / Verification  
 **Project:** [VTOL Autonomy Lab](https://github.com/gxmzung/vtol-autonomy-lab)  
@@ -265,7 +313,12 @@ This avoids presenting software implementation as field-proven before the requir
 
 ---
 
-## 🛠️ FieldOps Embedded Diagnostic Suite
+</details>
+
+---
+
+<details>
+<summary><strong>🛠️ FieldOps Embedded Diagnostic Suite</strong></summary>
 
 **Type:** Engineering Lab / Field Diagnostics  
 **Project:** [FieldOps Embedded Diagnostic Suite](https://github.com/gxmzung/fieldops-embedded-diagnostic-suite)  
@@ -285,7 +338,12 @@ This avoids presenting software implementation as field-proven before the requir
 
 ---
 
-## 📡 Ghost Ant Handover
+</details>
+
+---
+
+<details>
+<summary><strong>📡 Ghost Ant Handover</strong></summary>
 
 **Type:** UAM Communication Research / Competition  
 **Project:** [Ghost Ant Handover](https://github.com/gxmzung/ghost-ant-handover)  
@@ -304,7 +362,12 @@ This avoids presenting software implementation as field-proven before the requir
 
 ---
 
-## 🌍 RescueMap OS
+</details>
+
+---
+
+<details>
+<summary><strong>🌍 RescueMap OS</strong></summary>
 
 **Type:** Open Source / Disaster Response / Competition  
 **Project:** [RescueMap OS](https://github.com/gxmzung/rescuemap-os)  
@@ -323,7 +386,16 @@ This avoids presenting software implementation as field-proven before the requir
 
 ---
 
+</details>
+
+---
+
 # Technical Journey
+
+---
+
+<details>
+<summary><strong>2010–Present · Full Technical Journey</strong></summary>
 
 ## 2010–2018 · Foundations & Early Mentorship
 
@@ -413,9 +485,32 @@ I also became increasingly interested in connecting practical engineering experi
 
 ---
 
+</details>
+
+---
+
 # University Competitions, Hackathons & Academic Activities
 
-## 🏆 2026 Future Government Innovation Idea Contest
+| Program / Competition | Project | Result / Status |
+| --- | --- | --- |
+| Future Government Innovation Idea Contest | **BioDockLab** | 🏆 Top Prize / 1st Place |
+| Intelligent Innovation Idea Contest | **Paejae Pick** | 🏆 Encouragement Award |
+| 24th Korea Robot Aircraft Competition | **SkyEdge VTOL** | 1st Preliminary Passed |
+| National ICT Convergence AI Competition | **AgriGuard AIoT** | Competition Project |
+| TRAITHON | **SAFE:SEARCH** | Competition Project |
+| 17th LH Land Technology Competition | **SiteLink** | Proposal / Prototype |
+| Future Mobility Industry Idea Competition | **MobiThread-AI** | Research / Competition |
+| UAM Olympiad | **Ghost Ant Handover** | Research / Competition |
+| Open Source Developer Competition | **RescueMap OS** | Open Source / Competition |
+| 2026 Smart ICT Makerthon | **NEXUS NEST** | Field Validation Planned |
+| 2026 Smart ICT Convergence Academic Conference | **Pai Chai–Mokwon GIS Route Research** | Paper / Poster / Presentation |
+| Regional Social Venture Hackathon | **PAICHAI NEXUS** | ✅ Participation Confirmed |
+| PCU Presentation Competition | Engineering / Project Storytelling | Preparing |
+
+---
+
+<details>
+<summary><strong>🏆 2026 Future Government Innovation Idea Contest</strong></summary>
 
 **Type:** Idea / Innovation Competition  
 **Project:** BioDockLab  
@@ -434,7 +529,12 @@ I also became increasingly interested in connecting practical engineering experi
 
 ---
 
-## 🏆 2026 Intelligent Innovation Idea Contest
+</details>
+
+---
+
+<details>
+<summary><strong>🏆 2026 Intelligent Innovation Idea Contest</strong></summary>
 
 **Type:** University Innovation Competition  
 **Project:** Paejae Pick  
@@ -454,7 +554,12 @@ I also became increasingly interested in connecting practical engineering experi
 
 ---
 
-## 🛩️ 24th Korea Robot Aircraft Competition
+</details>
+
+---
+
+<details>
+<summary><strong>🛩️ 24th Korea Robot Aircraft Competition</strong></summary>
 
 **Type:** National UAV / Robotics Competition  
 **Project:** SkyEdge VTOL  
@@ -475,7 +580,12 @@ I also became increasingly interested in connecting practical engineering experi
 
 ---
 
-## 🚜 National ICT Convergence AI Competition
+</details>
+
+---
+
+<details>
+<summary><strong>🚜 National ICT Convergence AI Competition</strong></summary>
 
 **Type:** National AI / ICT Convergence Competition  
 **Project:** AgriGuard AIoT  
@@ -506,7 +616,12 @@ As Technical PM / System Integration, the work focuses on ensuring that each tec
 
 **Status:** Competition Project / Development
 
-## 🛡️ TRAITHON
+</details>
+
+---
+
+<details>
+<summary><strong>🛡️ TRAITHON</strong></summary>
 
 **Type:** AI / Digital Safety Competition  
 **Project:** SAFE:SEARCH  
@@ -544,7 +659,12 @@ AI output is treated as decision support rather than an unquestioned final judgm
 
 **Status:** Competition Project / Development
 
-## 🏗️ 17th LH Land Technology Competition
+</details>
+
+---
+
+<details>
+<summary><strong>🏗️ 17th LH Land Technology Competition</strong></summary>
 
 **Type:** Construction / Infrastructure Technology Competition  
 **Project:** SiteLink — Construction-Site Wi-Fi Placement Optimization for Changing Work Phases  
@@ -621,7 +741,12 @@ A future deployment workflow would be:
 
 ---
 
-## 🏗️ SiteLink
+</details>
+
+---
+
+<details>
+<summary><strong>🏗️ SiteLink</strong></summary>
 
 **Type:** Construction-Site Communication / Infrastructure Optimization  
 **Project:** SiteLink  
@@ -642,7 +767,12 @@ A future deployment workflow would be:
 
 ---
 
-## 🚗 Future Mobility Industry Idea Competition
+</details>
+
+---
+
+<details>
+<summary><strong>🚗 Future Mobility Industry Idea Competition</strong></summary>
 
 **Type:** Future Mobility / Industry Competition  
 **Project:** MobiThread-AI  
@@ -677,7 +807,12 @@ AI-Assisted Analysis & Traceability
 
 **Status:** Research / Competition Project
 
-## 📡 UAM Olympiad
+</details>
+
+---
+
+<details>
+<summary><strong>📡 UAM Olympiad</strong></summary>
 
 **Type:** UAM / Communication Competition  
 **Project:** Ghost Ant Handover  
@@ -714,7 +849,12 @@ Handover Decision
 
 **Status:** Research / Competition Project
 
-## 🌍 Open Source Developer Competition
+</details>
+
+---
+
+<details>
+<summary><strong>🌍 Open Source Developer Competition</strong></summary>
 
 **Type:** Open Source / Disaster Response Competition  
 **Project:** RescueMap OS  
@@ -742,7 +882,12 @@ The system is designed so that an operator can understand **where** an issue exi
 
 **Status:** Open Source / Competition Project
 
-## 🔧 2026 Smart ICT Makerthon
+</details>
+
+---
+
+<details>
+<summary><strong>🔧 2026 Smart ICT Makerthon</strong></summary>
 
 **Type:** University Makerthon  
 **Project:** NEXUS NEST — AI-Based Kindergarten Classroom Spatial-Safety Diagnostic Service  
@@ -817,7 +962,12 @@ The initial test intentionally avoids:
 
 **Status:** Preparing / Field Validation Planned
 
-## 📚 2026 Smart ICT Convergence Academic Conference
+</details>
+
+---
+
+<details>
+<summary><strong>📚 2026 Smart ICT Convergence Academic Conference</strong></summary>
 
 **Type:** Academic Conference  
 **Research Project:** GIS-Based Comparative Analysis of Underground Connection Route Alternatives between Pai Chai University and Mokwon University under a Hypothetical Integrated-Campus Scenario  
@@ -887,7 +1037,12 @@ The draft was reviewed by **Prof. Hoe-Kyung Jung (정회경)**, and no additiona
 
 ---
 
-## 🤝 2026 Regional Community Problem-Solving Innovative Social Venture Hackathon
+</details>
+
+---
+
+<details>
+<summary><strong>🤝 2026 Regional Community Problem-Solving Innovative Social Venture Hackathon</strong></summary>
 
 **Type:** Regional University Social Venture Hackathon  
 **Team:** PAICHAI NEXUS  
@@ -915,7 +1070,12 @@ The draft was reviewed by **Prof. Hoe-Kyung Jung (정회경)**, and no additiona
 
 ---
 
-## 🎤 PCU Presentation Competition
+</details>
+
+---
+
+<details>
+<summary><strong>🎤 PCU Presentation Competition</strong></summary>
 
 **Type:** University Presentation Competition  
 **Project / Topic:** Engineering Projects & Technical Storytelling  
@@ -933,9 +1093,16 @@ The draft was reviewed by **Prof. Hoe-Kyung Jung (정회경)**, and no additiona
 
 ---
 
+</details>
+
+---
+
 # University Programs & Campus Collaboration
 
-## 🎓 2026 NASEOM Competency Maker
+---
+
+<details>
+<summary><strong>🎓 2026 NASEOM Competency Maker</strong></summary>
 
 **Type:** University Maker Program  
 **Project:** Paejae Pick 2.0  
@@ -960,7 +1127,12 @@ Because the project is intended for actual student use, device compatibility and
 
 **Status:** ✅ Selected Project
 
-## 🤝 NEXUS × College of Business Administration
+</details>
+
+---
+
+<details>
+<summary><strong>🤝 NEXUS × College of Business Administration</strong></summary>
 
 **Type:** University Collaboration / Event Technical Support  
 **Project:** 2026 College of Business Administration Academic Festival Support  
@@ -997,11 +1169,25 @@ The technical collaboration supports both visible promotional materials and the 
 
 ---
 
-# Interdisciplinary Projects
+</details>
+
+---
 
 # Interdisciplinary Projects
 
-## 🧬 BioDockLab
+| Project | Domain | Current Direction |
+| --- | --- | --- |
+| **BioDockLab** | Bio AI | Research / experiment platform · interactive prototype |
+| **Paejae Pick 2.0** | Smart Campus / Mobility | Mobile app · indoor navigation · autonomous mobility |
+| **Smart Seedling AI** | Agriculture / Vision AI / IoT | Stress detection · greenhouse sensing · integrated control |
+| **Healthcare HIS** | Healthcare IT | Nursing workflow · information architecture |
+| **Underground Connection Route GIS Research** | GIS / Smart Construction | Candidate-route comparison · spatial screening |
+| **NEXUS NEST** | Early Childhood / Spatial Safety | Classroom risk review · 3D layout comparison · teacher validation |
+
+---
+
+<details>
+<summary><strong>🧬 BioDockLab</strong></summary>
 
 **Type:** Bio AI / Research & Experiment Platform  
 **Project:** [BioDockLab](https://github.com/gxmzung/BioDockLab)  
@@ -1054,7 +1240,12 @@ The system included API flows for health checks, sample handling, image capture,
 
 **Result:** 🏆 **2026 Future Government Innovation Idea Contest — Top Prize / 1st Place**
 
-## 🏫 Paejae Pick 2.0
+</details>
+
+---
+
+<details>
+<summary><strong>🏫 Paejae Pick 2.0</strong></summary>
 
 **Type:** Smart Campus / Mobility Platform  
 **Project:** [Paejae Pick 2.0](https://github.com/gxmzung/paejae-pick-2-app)  
@@ -1102,7 +1293,12 @@ Integrated Smart-Campus App
 - 🏆 **2026 Intelligent Innovation Idea Contest — Encouragement Award**
 - 🎓 **2026 NASEOM Competency Maker — Selected Project**
 
-## 🌱 Smart Seedling AI
+</details>
+
+---
+
+<details>
+<summary><strong>🌱 Smart Seedling AI</strong></summary>
 
 **Type:** Smart Agriculture / Vision AI / IoT / ROS2  
 **Project:** Smart Seedling AI  
@@ -1149,7 +1345,12 @@ The long-term goal is to build crop-specific training data and diagnostic models
 
 **Status:** Ongoing Research / Prototype Planning
 
-## 🏥 Healthcare HIS
+</details>
+
+---
+
+<details>
+<summary><strong>🏥 Healthcare HIS</strong></summary>
 
 **Type:** Healthcare Information System / Interdisciplinary Project  
 **Project:** Integrated HIS / Nursing Workflow Platform  
@@ -1173,7 +1374,12 @@ The emphasis is on understanding real healthcare workflow before defining softwa
 
 **Status:** Planning / Research
 
-## 🏗️ Underground Connection Route GIS Research
+</details>
+
+---
+
+<details>
+<summary><strong>🏗️ Underground Connection Route GIS Research</strong></summary>
 
 **Type:** GIS / Smart Construction / Spatial Analysis Research  
 **Project:** Pai Chai–Mokwon Underground Connection Route Alternatives  
@@ -1196,7 +1402,12 @@ The work is a preliminary GIS-based route comparison and does **not** claim cons
 
 ---
 
-## 👶 NEXUS NEST
+</details>
+
+---
+
+<details>
+<summary><strong>👶 NEXUS NEST</strong></summary>
 
 **Type:** Early Childhood Education × Software × Spatial Safety  
 **Project:** NEXUS NEST  
@@ -1216,7 +1427,16 @@ The work is a preliminary GIS-based route comparison and does **not** claim cons
 
 ---
 
+</details>
+
+---
+
 # PAICHAI NEXUS
+
+---
+
+<details>
+<summary><strong>Founder & Lab Lead · Organization, Responsibilities & Current Projects</strong></summary>
 
 ## Founder & Lab Lead
 
@@ -1248,6 +1468,10 @@ The work is a preliminary GIS-based route comparison and does **not** claim cons
 - 🧠 interdisciplinary AI / software projects
 
 > **Interdisciplinary collaboration creates value when each major contributes real domain expertise.**
+
+---
+
+</details>
 
 ---
 
@@ -1285,7 +1509,14 @@ The work is a preliminary GIS-based route comparison and does **not** claim cons
 
 ---
 
+---
+
 # Engineering Labs
+
+---
+
+<details>
+<summary><strong>Repository Index</strong></summary>
 
 | Repository | Focus |
 | --- | --- |
@@ -1297,6 +1528,10 @@ The work is a preliminary GIS-based route comparison and does **not** claim cons
 | [vtol-autonomy-lab](https://github.com/gxmzung/vtol-autonomy-lab) | VTOL verification |
 | [px4-fault-aware-mission-verification](https://github.com/gxmzung/px4-fault-aware-mission-verification) | PX4 fault verification |
 | [ros2-px4-yaml-param-debug](https://github.com/gxmzung/ros2-px4-yaml-param-debug) | ROS2 / PX4 debugging |
+
+---
+
+</details>
 
 ---
 
@@ -1314,7 +1549,14 @@ The work is a preliminary GIS-based route comparison and does **not** claim cons
 
 ---
 
+---
+
 # Engineering Principles
+
+---
+
+<details>
+<summary><strong>Engineering Process & Principles</strong></summary>
 
 I value:
 
@@ -1350,7 +1592,16 @@ Documentation
 
 ---
 
+</details>
+
+---
+
 # Long-Term Direction
+
+---
+
+<details>
+<summary><strong>Technical Growth Path</strong></summary>
 
 ```text
 Electronics / Embedded
@@ -1371,6 +1622,10 @@ Program / System Leadership
 ```
 
 **autonomous aerospace · UAV systems · embedded systems · disaster-response systems · Physical AI · multi-unmanned systems · technical program leadership**
+
+---
+
+</details>
 
 ---
 
