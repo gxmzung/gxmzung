@@ -1298,37 +1298,66 @@ Integrated Smart-Campus App
 ---
 
 <details>
-<summary><strong>🌱 Smart Seedling AI</strong></summary>
+<summary><strong>🌱 Smart Seedling AI / AI Farmer</strong></summary>
 
 **Type:** Smart Agriculture / Vision AI / IoT / ROS2  
-**Project:** Smart Seedling AI  
-**Role:** Project Coordination · System Integration · Research Planning
+**Project:** [Smart Seedling AI](https://github.com/paichai-nexus/smart-seedling-ai)  
+**Role:** Project Coordination · System Integration · Research Planning  
+**Team Direction:** Horticulture × Computer Engineering × Electronics × UAV / Robotics × Spatial / Greenhouse Design
 
 ### Problem / Objective
 
-The project aims to detect crop water stress, heat stress, and growth abnormalities earlier by combining visual and environmental information rather than relying on a single sensor.
+Smart Seedling AI is being developed as a greenhouse research and prototyping platform that combines **crop imagery, thermal information, environmental sensing, and field automation**.
 
-### Development / Research
+The goal is not to stop at monitoring. The longer-term direction is an **AI Farmer closed-loop system** that repeatedly:
 
-- thermal-camera data
-- RGB camera data
-- greenhouse temperature / humidity sensing
-- soil-moisture sensing
-- illuminance sensing
-- EC / pH sensing
+```text
+Crop / Environment Sensing
+          ↓
+Vision + Sensor Data Fusion
+          ↓
+Stress / Growth Diagnosis
+          ↓
+AI-Assisted Decision
+          ↓
+Irrigation / Ventilation / Shading / Treatment
+          ↓
+Re-measurement & Feedback
+          ↓
+Data Accumulation / Model Improvement
+```
+
+### Research Axis 1 — Multimodal Stress & Growth Diagnosis
+
+The first research axis combines multiple observation channels so that crop abnormalities can be detected earlier and interpreted with environmental context.
+
+Planned / reviewed inputs include:
+
+- fixed RGB camera imagery
+- thermal-camera imagery
+- thermal-drone imagery for wider-area inspection
+- greenhouse temperature / humidity
+- soil moisture
+- illuminance
+- EC
+- pH
+
+Target outputs include:
+
 - water-stress detection
 - heat-stress detection
 - crop-growth anomaly detection
-- sensor / vision data fusion
 - risk-location visualization
-- probable-cause display
-- greenhouse monitoring dashboard
-- communication gateway
-- integrated control-panel concept
+- probable-cause candidates
+- greenhouse monitoring / control dashboard
 
-### Long-Term Research Direction
+Rather than treating a thermal image or a sensor threshold as proof by itself, the project aims to compare **visual symptoms + thermal response + environmental measurements** together.
 
-A primary crop is to be selected and data accumulated across:
+### Research Axis 2 — Long-Term Crop Dataset & Diagnostic Model
+
+A primary crop is planned to be selected and observed continuously so that the project can build a crop-specific dataset rather than relying only on one-time demonstration data.
+
+Long-term data categories include:
 
 - normal growth
 - water stress
@@ -1336,14 +1365,146 @@ A primary crop is to be selected and data accumulated across:
 - pests / disease
 - nutrient disorders
 
-The long-term goal is to build crop-specific training data and diagnostic models, then connect monitoring to:
+The research direction is to connect:
 
-- irrigation
+```text
+Individual / Zone ID
+      +
+RGB / Thermal Image
+      +
+Environmental Sensor Data
+      +
+Time-Series Growth Change
+      +
+Horticulture Expert Review
+      ↓
+Crop-Specific Dataset
+      ↓
+Stress / Growth Diagnostic Model
+```
+
+The longer-term objective is a **multi-year greenhouse dataset and diagnostic model** that can support approximately three years of continued collection and refinement.
+
+### Research Axis 3 — Greenhouse Hardware & Integrated Control
+
+The project also includes development of the physical sensing and control layer needed to move from analysis to field operation.
+
+Target hardware / interfaces include:
+
+- RGB / thermal cameras
+- temperature / humidity sensors
+- soil-moisture sensors
+- illuminance sensors
+- EC / pH sensors
+- Arduino / ESP32-class sensor nodes
+- Raspberry Pi-class edge gateway
+- communication gateway
+- integrated control panel
+- relay / actuator interfaces
+
+Initial data-flow concepts include **MQTT / local storage / resend handling** so that greenhouse sensing remains usable even when network conditions are unstable.
+
+The target control devices are:
+
+- irrigation pump / valve
 - ventilation
 - shading
 - spraying / treatment modules
 
-**Status:** Ongoing Research / Prototype Planning
+### First PoC — Irrigation Closed Loop
+
+The practical first closed-loop PoC is planned around **irrigation**, because it provides a clear measurable relationship between sensing, decision, actuation, and re-measurement.
+
+```text
+Temperature / Humidity
+Soil Moisture
+Illuminance
+RGB Observation
+        ↓
+Gateway / Data Collection
+        ↓
+Rule or AI-Assisted Decision
+        ↓
+Pump / Valve Control
+        ↓
+Re-measurement
+        ↓
+Before / After Comparison
+```
+
+Once the sensing-to-action loop is stable, the same architecture can be expanded toward heat-stress response, ventilation, shading, spraying, and more autonomous greenhouse operation.
+
+### 2026-10-01 Greenhouse Meeting — Validation Direction
+
+The greenhouse meeting focused on reducing project risk by validating the system in stages instead of attempting the full autonomous system at once.
+
+The practical sequence discussed was:
+
+1. begin with **fixed RGB + environmental sensors**
+2. establish repeatable crop / zone IDs and collection procedures
+3. compare thermal imagery through fixed or manual acquisition
+4. evaluate whether thermal-drone automation adds sufficient value
+5. define crop, greenhouse zone, observation interval, equipment ownership, and operating procedures
+6. expand toward automatic control only after sensing / diagnosis reliability is demonstrated
+
+Additional field issues under review include:
+
+- greenhouse indoor flight characteristics
+- drone operating responsibility
+- insurance / safety constraints
+- positioning and navigation limitations in greenhouse environments
+- SLAM or alternative indoor-localization feasibility
+- whether a fixed-camera system is more practical than routine indoor drone operation
+
+### Interdisciplinary Roles
+
+| Area | Responsibility |
+| --- | --- |
+| **Horticulture / Forestry** | primary crop selection · growth criteria · stress definitions · expert validation |
+| **Software / AI** | dataset pipeline · Vision AI · sensor fusion · dashboard · system integration |
+| **Electrical / Electronics** | sensors · power · MCU / IoT · gateway · control-panel interfaces |
+| **UAV / Robotics** | thermal / RGB remote sensing · flight workflow · automation feasibility |
+| **Architecture / Landscape / Greenhouse** | spatial constraints · equipment placement · greenhouse operation context |
+| **IT / Project Management** | schedule · records · requirements · milestones · interdisciplinary coordination |
+
+### Development Roadmap
+
+```text
+Phase 1
+Fixed RGB + Environment Sensors
+        ↓
+Phase 2
+Dataset / Individual or Zone Tracking
+        ↓
+Phase 3
+Thermal Comparison + Stress Detection
+        ↓
+Phase 4
+AI-Assisted Diagnosis / Dashboard
+        ↓
+Phase 5
+Irrigation Closed-Loop Control
+        ↓
+Phase 6
+Ventilation / Shading / Treatment Integration
+        ↓
+Phase 7
+AI Farmer / Autonomous Greenhouse PoC
+```
+
+### Current Validation Principle
+
+The project intentionally separates:
+
+- collected data
+- AI inference
+- horticulture-expert interpretation
+- actuator command
+- field-verified effect
+
+This is intended to avoid presenting a predicted crop condition as a confirmed agronomic diagnosis before expert and field validation.
+
+**Status:** Ongoing Research / Greenhouse PoC Planning
 
 </details>
 
@@ -1629,16 +1790,17 @@ Program / System Leadership
 
 ---
 
-# GitHub Stats
+## GitHub
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=gxmzung&show_icons=true&hide_border=true&theme=transparent" />
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=gxmzung&show_icons=true&include_all_commits=true&hide_border=true)
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gxmzung&layout=compact&hide_border=true&theme=transparent" />
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=gxmzung&layout=compact&hide_border=true)
 
 </div>
 
+> Activity metrics are secondary to repository quality, reproducible engineering work, reviews, and collaboration history.
 ---
 
 # Contact
